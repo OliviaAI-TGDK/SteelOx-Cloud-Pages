@@ -1,0 +1,13 @@
+.secrets/
+logs/
+run/
+*.pid
+*.key
+*.token
+*.env.local
+*.bak.*
+*.tmp
+__pycache__/
+*.pyc
+*.tar.gz
+*.zip
