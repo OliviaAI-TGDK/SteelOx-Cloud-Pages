@@ -1,0 +1,58 @@
+{
+  "info": {
+    "description": "Static GitHub Pages host for SteelOx TGDK CloudSwarm manifests, BFE seals, logical satcount snapshots, and API index.",
+    "title": "SteelOx Cloud",
+    "version": "1.0.0"
+  },
+  "openapi": "3.1.0",
+  "paths": {
+    "/": {
+      "get": {
+        "summary": "SteelOx Cloud Pages home"
+      }
+    },
+    "/api/routes.json": {
+      "get": {
+        "summary": "Static route map"
+      }
+    },
+    "/bfe/BFE_SEAL_CERTIFICATE.txt": {
+      "get": {
+        "summary": "BFE certificate"
+      }
+    },
+    "/bfe/bfe_manifest.json": {
+      "get": {
+        "summary": "BFE manifest"
+      }
+    },
+    "/cloudswarm/current.json": {
+      "get": {
+        "summary": "CloudSwarm snapshot"
+      }
+    },
+    "/openapi.json": {
+      "get": {
+        "summary": "Static OpenAPI document"
+      }
+    },
+    "/satcount/tgdk-satcount-summary.json": {
+      "get": {
+        "summary": "TGDK satcount snapshot"
+      }
+    },
+    "/status/pages_manifest.json": {
+      "get": {
+        "summary": "Static Pages seal manifest"
+      }
+    }
+  },
+  "servers": [
+    {
+      "url": "https://oliviaai-tgdk.github.io/SteelOx-Cloud-Pages"
+    },
+    {
+      "url": "http://127.0.0.1:8788"
+    }
+  ]
+}

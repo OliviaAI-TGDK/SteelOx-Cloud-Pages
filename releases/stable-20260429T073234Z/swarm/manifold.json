@@ -1,0 +1,234 @@
+{
+  "carrier_note": "Carrier and satellite networks are transport only. These are TGDK logical resolver records.",
+  "engine": "SteelOx.Cloud.Phase3.Manifold",
+  "local": {
+    "checks": {
+      "cloudswarm": {
+        "bytes_head": 1114,
+        "error": "",
+        "latency_ms": 3.835,
+        "ok": true,
+        "status": 200
+      },
+      "olivia_bridge": {
+        "bytes_head": 1206,
+        "error": "",
+        "latency_ms": 23.538,
+        "ok": true,
+        "status": 200
+      }
+    },
+    "recovery": {
+      "attempted": false,
+      "offline": [],
+      "ok": true,
+      "output": ""
+    }
+  },
+  "nodes": {
+    "healthy_count": 25000,
+    "healthy_preview": [
+      {
+        "active": true,
+        "age_seconds": 12.77,
+        "last_heartbeat": "2026-04-29T07:32:20.477353+00:00",
+        "role": "edge-uplink",
+        "sat_id": "TGDK-QSN-EDGE-001",
+        "state": "healthy"
+      },
+      {
+        "active": true,
+        "age_seconds": 12.77,
+        "last_heartbeat": "2026-04-29T07:32:20.477353+00:00",
+        "role": "olivia-session-authority",
+        "sat_id": "TGDK-QSN-OLIVIA-002",
+        "state": "healthy"
+      },
+      {
+        "active": true,
+        "age_seconds": 12.77,
+        "last_heartbeat": "2026-04-29T07:32:20.477353+00:00",
+        "role": "steelox-proxy-resolver",
+        "sat_id": "TGDK-QSN-STEEL-003",
+        "state": "healthy"
+      },
+      {
+        "active": true,
+        "age_seconds": 12.77,
+        "last_heartbeat": "2026-04-29T07:32:20.477353+00:00",
+        "role": "cloudswarm-routing",
+        "sat_id": "TGDK-QSN-SWARM-004",
+        "state": "healthy"
+      },
+      {
+        "active": true,
+        "age_seconds": 12.77,
+        "last_heartbeat": "2026-04-29T07:32:20.477353+00:00",
+        "role": "quomo-authority",
+        "sat_id": "TGDK-QSN-QUOMO-005",
+        "state": "healthy"
+      },
+      {
+        "active": true,
+        "age_seconds": 12.77,
+        "last_heartbeat": "2026-04-29T07:32:20.477353+00:00",
+        "role": "proxy-uplink",
+        "sat_id": "TGDK-QSN-PROXY-006",
+        "state": "healthy"
+      },
+      {
+        "active": true,
+        "age_seconds": 12.77,
+        "last_heartbeat": "2026-04-29T07:32:20.477353+00:00",
+        "role": "realtime-analytics",
+        "sat_id": "TGDK-QSN-ANALYTICS-007",
+        "state": "healthy"
+      },
+      {
+        "active": true,
+        "age_seconds": 12.77,
+        "last_heartbeat": "2026-04-29T07:32:20.477353+00:00",
+        "role": "optimized-uplink",
+        "sat_id": "TGDK-QSN-UPLINK-008",
+        "state": "healthy"
+      },
+      {
+        "active": true,
+        "age_seconds": 12.77,
+        "last_heartbeat": "2026-04-29T07:32:20.477353+00:00",
+        "role": "mesh-relay",
+        "sat_id": "TGDK-QSN-MESH-009",
+        "state": "healthy"
+      },
+      {
+        "active": true,
+        "age_seconds": 12.77,
+        "last_heartbeat": "2026-04-29T07:32:20.477353+00:00",
+        "role": "mesh-relay",
+        "sat_id": "TGDK-QSN-MESH-010",
+        "state": "healthy"
+      },
+      {
+        "active": true,
+        "age_seconds": 12.77,
+        "last_heartbeat": "2026-04-29T07:32:20.477353+00:00",
+        "role": "edge-uplink",
+        "sat_id": "TGDK-QSN-EDGE-011",
+        "state": "healthy"
+      },
+      {
+        "active": true,
+        "age_seconds": 12.77,
+        "last_heartbeat": "2026-04-29T07:32:20.477353+00:00",
+        "role": "edge-uplink",
+        "sat_id": "TGDK-QSN-EDGE-012",
+        "state": "healthy"
+      },
+      {
+        "active": true,
+        "age_seconds": 12.77,
+        "last_heartbeat": "2026-04-29T07:32:20.477353+00:00",
+        "role": "expanded-tgdk-node",
+        "sat_id": "TGDK-QSN-NODE-000013",
+        "state": "healthy"
+      },
+      {
+        "active": true,
+        "age_seconds": 12.77,
+        "last_heartbeat": "2026-04-29T07:32:20.477353+00:00",
+        "role": "expanded-tgdk-node",
+        "sat_id": "TGDK-QSN-NODE-000014",
+        "state": "healthy"
+      },
+      {
+        "active": true,
+        "age_seconds": 12.77,
+        "last_heartbeat": "2026-04-29T07:32:20.477353+00:00",
+        "role": "expanded-tgdk-node",
+        "sat_id": "TGDK-QSN-NODE-000015",
+        "state": "healthy"
+      },
+      {
+        "active": true,
+        "age_seconds": 12.77,
+        "last_heartbeat": "2026-04-29T07:32:20.477353+00:00",
+        "role": "expanded-tgdk-node",
+        "sat_id": "TGDK-QSN-NODE-000016",
+        "state": "healthy"
+      },
+      {
+        "active": true,
+        "age_seconds": 12.77,
+        "last_heartbeat": "2026-04-29T07:32:20.477353+00:00",
+        "role": "expanded-tgdk-node",
+        "sat_id": "TGDK-QSN-NODE-000017",
+        "state": "healthy"
+      },
+      {
+        "active": true,
+        "age_seconds": 12.77,
+        "last_heartbeat": "2026-04-29T07:32:20.477353+00:00",
+        "role": "expanded-tgdk-node",
+        "sat_id": "TGDK-QSN-NODE-000018",
+        "state": "healthy"
+      },
+      {
+        "active": true,
+        "age_seconds": 12.77,
+        "last_heartbeat": "2026-04-29T07:32:20.477353+00:00",
+        "role": "expanded-tgdk-node",
+        "sat_id": "TGDK-QSN-NODE-000019",
+        "state": "healthy"
+      },
+      {
+        "active": true,
+        "age_seconds": 12.77,
+        "last_heartbeat": "2026-04-29T07:32:20.477353+00:00",
+        "role": "expanded-tgdk-node",
+        "sat_id": "TGDK-QSN-NODE-000020",
+        "state": "healthy"
+      },
+      {
+        "active": true,
+        "age_seconds": 12.77,
+        "last_heartbeat": "2026-04-29T07:32:20.477353+00:00",
+        "role": "expanded-tgdk-node",
+        "sat_id": "TGDK-QSN-NODE-000021",
+        "state": "healthy"
+      },
+      {
+        "active": true,
+        "age_seconds": 12.77,
+        "last_heartbeat": "2026-04-29T07:32:20.477353+00:00",
+        "role": "expanded-tgdk-node",
+        "sat_id": "TGDK-QSN-NODE-000022",
+        "state": "healthy"
+      },
+      {
+        "active": true,
+        "age_seconds": 12.77,
+        "last_heartbeat": "2026-04-29T07:32:20.477353+00:00",
+        "role": "expanded-tgdk-node",
+        "sat_id": "TGDK-QSN-NODE-000023",
+        "state": "healthy"
+      },
+      {
+        "active": true,
+        "age_seconds": 12.77,
+        "last_heartbeat": "2026-04-29T07:32:20.477353+00:00",
+        "role": "expanded-tgdk-node",
+        "sat_id": "TGDK-QSN-NODE-000024",
+        "state": "healthy"
+      }
+    ],
+    "inactive_count": 0,
+    "inactive_preview": [],
+    "inventory_total": 25000,
+    "stale_count": 0,
+    "stale_preview": []
+  },
+  "scope": "logical_tgdk_swarm_nodes",
+  "sha256_digest": "28291877c89a84dd54ad6b4caa685763bd7f61253c204eedd6ef0e502183a834",
+  "stamp_utc": "2026-04-29T07:32:33.458211+00:00",
+  "version": "3.0.0"
+}

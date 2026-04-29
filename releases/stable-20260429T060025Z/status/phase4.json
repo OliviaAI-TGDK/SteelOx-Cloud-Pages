@@ -1,0 +1,11 @@
+{
+  "engine": "SteelOx.Cloud.Phase4.Release",
+  "latest_release_id": "hq-heart-live",
+  "ok": true,
+  "rollback_supported": true,
+  "sha256_digest": "2f83ce8f5f8044d61e4c1b433f8b9d2b8c6c0baf1682db3dd0f31588c518749a",
+  "source": "pages-404-fix",
+  "stamp_utc": "2026-04-29T05:59:19.858284+00:00",
+  "verify_supported": true,
+  "version": "4.0.0"
+}

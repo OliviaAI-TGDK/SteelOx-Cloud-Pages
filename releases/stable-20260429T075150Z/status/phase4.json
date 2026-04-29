@@ -1,0 +1,16 @@
+{
+  "engine": "SteelOx.Cloud.Phase4",
+  "latest_manifest": "releases/stable-20260429T073234Z/release_manifest.json",
+  "latest_release_id": "stable-20260429T073234Z",
+  "pages_url": "https://oliviaai-tgdk.github.io/SteelOx-Cloud-Pages/",
+  "qquap_hmac_sha256": "f8c8de252c0f1f6f781c83c0c8272b345f70597643f945bcb16a1a0039cb94f6",
+  "release_index": "releases/index.json",
+  "release_qquap_hmac_sha256": "29436acf3e3fbfbf8ff90001088cfbb5c3b22df0583b48b667c6524e6db1abe1",
+  "release_sha256": "40698ba0748df8249408d91f33ddb7b702d848f277bdfda50bd4dfcc80307c5a",
+  "rollback_supported": true,
+  "sha256_digest": "68277da4bef24d13f980298913519cfb0daf74e33bdf3e8e803fe2f8f8456315",
+  "stamp_utc": "2026-04-29T07:32:34.714711+00:00",
+  "status": "release_created",
+  "verify_supported": true,
+  "version": "4.0.0"
+}

@@ -1,0 +1,212 @@
+{
+  "attestation": {
+    "bfe_manifest_digest": "a95ff33405e9faab1b002b999bf4d7df4ee8279772cb2ebac52dd9e9eecd7ee6",
+    "manifold_digest": "28291877c89a84dd54ad6b4caa685763bd7f61253c204eedd6ef0e502183a834",
+    "phase2_digest": "9d09597d5c7d310d52b6c1592a0299c9eeb2dbc544d01be30df5f565ad515a5a",
+    "phase3_digest": "c4248c20af5b4b0b045ce5a8367e0f6cdc8900558c16308cdabe7d2baef589c5",
+    "satcount_connected": 25000,
+    "satcount_total": 25000
+  },
+  "audit": {
+    "hit_count": 0,
+    "hits": [],
+    "ok": true
+  },
+  "carrier_note": "Carrier and satellite networks are transport only. TGDK-QSN records are logical resolver records unless separately documented.",
+  "channel": "stable",
+  "engine": "SteelOx.Cloud.Phase4.Release",
+  "file_count": 27,
+  "files": [
+    {
+      "bytes": 0,
+      "path": ".nojekyll",
+      "qquap_hmac_sha256": "0fc5dab10714540b66a1eb3197b44775f055bc28ee9e0af7098415feb240f22a",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 834,
+      "path": "api/routes.json",
+      "qquap_hmac_sha256": "0c07120fb907b25f632e8d3227f3c7bfcdbfdb97e5475445c49b7ba7fb650034",
+      "sha256": "dd4095172b7892e004abef5063063fcdc30a567354627101a46a94788a8a08bb"
+    },
+    {
+      "bytes": 2369,
+      "path": "bfe/BFE_SEAL_CERTIFICATE.txt",
+      "qquap_hmac_sha256": "3c1644cc6dd38c10b3c956d49c135ba0f43b4140a380dcc0845b47212a21d344",
+      "sha256": "1ccffe368f793059ef2b56c86dc6784eb898e29a99c40cde061c47e45d146e5f"
+    },
+    {
+      "bytes": 2776,
+      "path": "bfe/bfe_manifest.json",
+      "qquap_hmac_sha256": "bc04f4c371294170524f4c7d533fa3666da66e708c8ca5a94b7a4f733a381675",
+      "sha256": "b6bf41cbbc50d860df1c1bbcf53dce15662beed30c3c8876d0b0577eee9e9a8a"
+    },
+    {
+      "bytes": 5813,
+      "path": "bfe/contracts/00_STEELOX_TGDK_CLOUD_POLICY.md",
+      "qquap_hmac_sha256": "a3b4fa51908de58f6a3c57153bf13213f813bb8324d7dd905a197c990d90e03d",
+      "sha256": "77f1117a6d9315a988f39570dc8e84c6278a484d8715feb58e68ca8e813d2bb4"
+    },
+    {
+      "bytes": 3222,
+      "path": "bfe/contracts/01_BFE_LICENSE_AGREEMENT.md",
+      "qquap_hmac_sha256": "388688d35c534a98cf06d9f991d172380d97451f73c3cf58fbfaa5ee3e88fae7",
+      "sha256": "3cf071184c641ed7b9c376f559b7d2c88ccd0d63c00c83e054376e90b7b0ea40"
+    },
+    {
+      "bytes": 1980,
+      "path": "bfe/contracts/02_MUTUAL_NDA.md",
+      "qquap_hmac_sha256": "5b44df3e5fd841d43eb71d64e3377c749ab847fd5941ca2a59410a9abc45ebac",
+      "sha256": "da6db08dc0609a7f0303e9e8de0313bf0e67f8e7f5105cadd772d0fc23f78aa8"
+    },
+    {
+      "bytes": 2075,
+      "path": "bfe/contracts/03_DATA_PROCESSING_AND_SECURITY_ADDENDUM.md",
+      "qquap_hmac_sha256": "07d6ef3c3c68fcb5f609146e64d1acd871f333e4c77055c7a49b3b3e517fd569",
+      "sha256": "84dc07a577c56f128e03c61d6dbce76154714cdaf7ab8c5d8fde947c79e6124a"
+    },
+    {
+      "bytes": 1772,
+      "path": "bfe/contracts/04_CLOUD_SWARM_SERVICE_TERMS.md",
+      "qquap_hmac_sha256": "e1dc5b3dd2772353b6f81a4270d3d2de309556261390c869dc5e48dca9bad490",
+      "sha256": "e960ae6015ae62e87a54d1b7f95446429f46c2d876be257c89e946353dbfe827"
+    },
+    {
+      "bytes": 924,
+      "path": "bfe/contracts/05_ACCEPTABLE_USE_POLICY.md",
+      "qquap_hmac_sha256": "b4b86e7dae54eb1cffe78464c8662bbb7dfd92b39b44175d3198c91b79bac2b5",
+      "sha256": "7c54e0e74ee7e33c7684e53da7f4f67fe9cca2c07fa21402418cd2f487bc61b1"
+    },
+    {
+      "bytes": 1128,
+      "path": "bfe/contracts/06_BFE_COUNTERPARTY_ORDER_FORM.md",
+      "qquap_hmac_sha256": "b3f1704062a1b67355b615235de9e406854e0e60bf1d75895a72cbffc0c36eb8",
+      "sha256": "5ce0c841db39d6ea289db8e314df260b70391500fa7d7323a87f115a87238630"
+    },
+    {
+      "bytes": 868,
+      "path": "bfe/contracts/07_BFE_SEAL_CERTIFICATE_TEMPLATE.md",
+      "qquap_hmac_sha256": "89bb7ea60983f272aa257888b182e9bc5ec55c666322f21df5047454e293997d",
+      "sha256": "cb1adf329b8db48f19468eea77c9ffb6e8dccd2ad46dc4a7940c8ef3730b96bf"
+    },
+    {
+      "bytes": 3643,
+      "path": "cloudswarm/current.json",
+      "qquap_hmac_sha256": "bbc37fcb6534b30e0dc4743b4d894259fb697efbc4bfd4c1d6ac7833162a3bf1",
+      "sha256": "aba7ccf1d0331facdf3b79a4f14228efdffeaa842cccbed9a43ea1748491816b"
+    },
+    {
+      "bytes": 1715,
+      "path": "cloudswarm/quomosatnet-realtime-current.json",
+      "qquap_hmac_sha256": "3b0825028dbd04479d5ca8015dd234bcb49ab0c1e52edc4d3a177a92d3ce9f15",
+      "sha256": "e0da60079636c2d75c39c95154a3a7e67dda07b193e06a16668c0bff8621886e"
+    },
+    {
+      "bytes": 2317,
+      "path": "index.html",
+      "qquap_hmac_sha256": "dbd701626f300d0bdbc2672848ba10722dc6977d21be70747bfb2771588322c0",
+      "sha256": "bd615d8dc2aec083ad26d02a27d7711a5a1afe470b14c4b0c2ebd6c7eb0a05e2"
+    },
+    {
+      "bytes": 1222,
+      "path": "openapi.json",
+      "qquap_hmac_sha256": "74b9ee27377ee0d34bf3d643e99ef3b607475ead04196ea7e01f949670db913d",
+      "sha256": "bbeaacb7b4680bf50da0403646362e9161b1b3a30e437cf8de131c663fc65fe9"
+    },
+    {
+      "bytes": 621,
+      "path": "policy/steelox_cloud_phase2_policy.json",
+      "qquap_hmac_sha256": "92986bda7d0884fff62f5ac2dc0af3598577ae034c7225a9537ceed6e8bac712",
+      "sha256": "f494fde1544c77c568c8e5bc25e85f5f6bdb51b34689db14b5afe7dca81fb7ae"
+    },
+    {
+      "bytes": 665,
+      "path": "policy/steelox_cloud_phase3_policy.json",
+      "qquap_hmac_sha256": "bc2849f7dae11e2d7ef3e542b7c3486b15c6c2edca3b29327ed283064b2ec502",
+      "sha256": "51738da47a427c34478d38be2714a97161eed5d9e79862c23e638f830a3f3788"
+    },
+    {
+      "bytes": 548,
+      "path": "recovery/state.json",
+      "qquap_hmac_sha256": "103932865dee5e919a251ce47acb55347b4f533b5a4e58d2cea8fe7385bc0906",
+      "sha256": "21c6d7b99a8fc9edb6acddfa0f8e4ac7d69b4fbb64b15cafa1892d0530188216"
+    },
+    {
+      "bytes": 511265,
+      "path": "satcount/tgdk-satcount-raw.json",
+      "qquap_hmac_sha256": "a012fa5d9c006c1bc29ad5c2e229169762c233e581968444efb23b03a1d9020d",
+      "sha256": "ad2dab585699613d537dadacfa87546eb4252ed11090630f78da04a71d96d978"
+    },
+    {
+      "bytes": 24858,
+      "path": "satcount/tgdk-satcount-summary.json",
+      "qquap_hmac_sha256": "6679bf3cabc4528f4e1b0e468a4e15efb4cd38fbf13aafed64e1df3fff53d13a",
+      "sha256": "85de2a40d1211a265d02d4e4048e3b44f0ce662ec0d383a41a8b0c8205fe1edb"
+    },
+    {
+      "bytes": 358,
+      "path": "status/assembly.json",
+      "qquap_hmac_sha256": "69701cf3c3f9a43f78a6f199a5056c43aa5ca68fb4edf37d698b0e3a232d469d",
+      "sha256": "5a7e2dd5a32ce98db13c577e025e614a9d8ca64ce30af5747d6eff07cf30298f"
+    },
+    {
+      "bytes": 75717,
+      "path": "status/pages_manifest.json",
+      "qquap_hmac_sha256": "6b1281c74a89d682e1031fe7f1d896017c5919894d05d9ced095ec366a14d19f",
+      "sha256": "9d8dcc5f836e3ab634a4f61cce4c3e296ea47e9348fd0cef71e8bf789bd7bbfe"
+    },
+    {
+      "bytes": 713,
+      "path": "status/phase2.json",
+      "qquap_hmac_sha256": "3344367f8244e07214ec2d8c8d1a847fd512f3403c14b1a348b583fa355366d9",
+      "sha256": "5a244d8539ec56210f9d80d82d2b8de7c9fdfefcd239b166a6ca20092bf9d242"
+    },
+    {
+      "bytes": 11890,
+      "path": "status/phase3.json",
+      "qquap_hmac_sha256": "4564203ce8c345092f49cbaba1392c2262f42eacdb9dfb9e08deead632e6f873",
+      "sha256": "6eba819da246ddf8cfceae99b415fd392721f4884e7a0a7c4e05fa2f7e615678"
+    },
+    {
+      "bytes": 808,
+      "path": "status/phase4.json",
+      "qquap_hmac_sha256": "539bf8405afd6cea97830ec3e3e983ee667aee33dd3c0c74ff0b712dc21307ae",
+      "sha256": "bdac02ba20499f78768e507a336aca097d875dc1246b64167fa0d2145d0faa4d"
+    },
+    {
+      "bytes": 6719,
+      "path": "swarm/manifold.json",
+      "qquap_hmac_sha256": "1d2833fe1306bdef11ce4f1e1cd14e5a9a661e3eba938129741ae23ea47e2cfd",
+      "sha256": "bb37679ce5a57295694654f58fdb4eebb12abf9fb7f26acf954c8d3fa04fb9b7"
+    }
+  ],
+  "note": "assembly automatic release",
+  "pages_url": "https://oliviaai-tgdk.github.io/SteelOx-Cloud-Pages/",
+  "refresh": {
+    "ok": true,
+    "results": [
+      {
+        "cmd": [
+          "/data/data/com.termux/files/home/SteelOx/phase3_once.sh"
+        ],
+        "ok": true,
+        "tail": "=== SteelOx Cloud Phase 3 Guardian ===\nStamp: 2026-04-29T07:32:33.456637+00:00\nPages: https://oliviaai-tgdk.github.io/SteelOx-Cloud-Pages/\n\nLocal:\n- olivia_bridge: OK :: 200 :: \n- cloudswarm: OK :: 200 :: \n\nLogical TGDK nodes:\nInventory: 25000\nHealthy: 25000\nStale: 0\nInactive: 0\n\nAudit: OK hits= 0\nPublish: OK attempted= False\nPages check: False\n\nSaved:\n/sdcard/Download/steelox/phase3/phase3-current.json\n/data/data/com.termux/files/home/SteelOx/public/status/phase3.json\n/data/data/com.termux/files/home/SteelOx/public/swarm/manifold.json"
+      },
+      {
+        "cmd": [
+          "python3",
+          "/data/data/com.termux/files/home/SteelOx/scripts/build_pages_site.py"
+        ],
+        "ok": true,
+        "tail": "=== SteelOx Pages built ===\npublic: /data/data/com.termux/files/home/SteelOx/public\nfiles: 261\nsha256: 7f2bfe55bcd60ef34223758dd88a74b43dfcc8430469c1d912f472b2c5c58f54"
+      }
+    ]
+  },
+  "release_id": "stable-20260429T073234Z",
+  "release_qquap_hmac_sha256": "29436acf3e3fbfbf8ff90001088cfbb5c3b22df0583b48b667c6524e6db1abe1",
+  "release_sha256": "40698ba0748df8249408d91f33ddb7b702d848f277bdfda50bd4dfcc80307c5a",
+  "remote": "https://github.com/OliviaAI-TGDK/SteelOx-Cloud-Pages.git",
+  "scope": "immutable_static_pages_release",
+  "stamp_utc": "2026-04-29T07:32:34.711041+00:00",
+  "version": "4.0.0"
+}

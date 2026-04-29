@@ -1,0 +1,802 @@
+{
+  "engine": "SteelOx.Cloud.Pages.Manifest",
+  "file_count": 132,
+  "files": [
+    {
+      "bytes": 0,
+      "path": ".nojekyll",
+      "qquap_hmac_sha256": "0fc5dab10714540b66a1eb3197b44775f055bc28ee9e0af7098415feb240f22a",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 834,
+      "path": "api/routes.json",
+      "qquap_hmac_sha256": "684ca288237b8dd8d4eb8dee928b30f82728d3430a11477052b8fbb0db0b5d7c",
+      "sha256": "b08930e1e031ba53834c731579c48103720d418dc3f6081945c8b78536b75411"
+    },
+    {
+      "bytes": 2369,
+      "path": "bfe/BFE_SEAL_CERTIFICATE.txt",
+      "qquap_hmac_sha256": "57380fa59f7bd509dcf06fd95830afcb50fc10c14860e1cc1d886cde5d56baf5",
+      "sha256": "48a48306e7929a1e26476965158682a8cc5a4118366352bef5a95ce309cfb7e5"
+    },
+    {
+      "bytes": 2776,
+      "path": "bfe/bfe_manifest.json",
+      "qquap_hmac_sha256": "7e983abb302994e1645f8dfb3f9ca4855643d3acabe0c4f18c052acefb96cfac",
+      "sha256": "1378d5abc740b5a82ac2c1028d960a81503abdcb6d09575c9a45c03a3e554346"
+    },
+    {
+      "bytes": 5813,
+      "path": "bfe/contracts/00_STEELOX_TGDK_CLOUD_POLICY.md",
+      "qquap_hmac_sha256": "a3b4fa51908de58f6a3c57153bf13213f813bb8324d7dd905a197c990d90e03d",
+      "sha256": "77f1117a6d9315a988f39570dc8e84c6278a484d8715feb58e68ca8e813d2bb4"
+    },
+    {
+      "bytes": 3222,
+      "path": "bfe/contracts/01_BFE_LICENSE_AGREEMENT.md",
+      "qquap_hmac_sha256": "388688d35c534a98cf06d9f991d172380d97451f73c3cf58fbfaa5ee3e88fae7",
+      "sha256": "3cf071184c641ed7b9c376f559b7d2c88ccd0d63c00c83e054376e90b7b0ea40"
+    },
+    {
+      "bytes": 1980,
+      "path": "bfe/contracts/02_MUTUAL_NDA.md",
+      "qquap_hmac_sha256": "5b44df3e5fd841d43eb71d64e3377c749ab847fd5941ca2a59410a9abc45ebac",
+      "sha256": "da6db08dc0609a7f0303e9e8de0313bf0e67f8e7f5105cadd772d0fc23f78aa8"
+    },
+    {
+      "bytes": 2075,
+      "path": "bfe/contracts/03_DATA_PROCESSING_AND_SECURITY_ADDENDUM.md",
+      "qquap_hmac_sha256": "07d6ef3c3c68fcb5f609146e64d1acd871f333e4c77055c7a49b3b3e517fd569",
+      "sha256": "84dc07a577c56f128e03c61d6dbce76154714cdaf7ab8c5d8fde947c79e6124a"
+    },
+    {
+      "bytes": 1772,
+      "path": "bfe/contracts/04_CLOUD_SWARM_SERVICE_TERMS.md",
+      "qquap_hmac_sha256": "e1dc5b3dd2772353b6f81a4270d3d2de309556261390c869dc5e48dca9bad490",
+      "sha256": "e960ae6015ae62e87a54d1b7f95446429f46c2d876be257c89e946353dbfe827"
+    },
+    {
+      "bytes": 924,
+      "path": "bfe/contracts/05_ACCEPTABLE_USE_POLICY.md",
+      "qquap_hmac_sha256": "b4b86e7dae54eb1cffe78464c8662bbb7dfd92b39b44175d3198c91b79bac2b5",
+      "sha256": "7c54e0e74ee7e33c7684e53da7f4f67fe9cca2c07fa21402418cd2f487bc61b1"
+    },
+    {
+      "bytes": 1128,
+      "path": "bfe/contracts/06_BFE_COUNTERPARTY_ORDER_FORM.md",
+      "qquap_hmac_sha256": "b3f1704062a1b67355b615235de9e406854e0e60bf1d75895a72cbffc0c36eb8",
+      "sha256": "5ce0c841db39d6ea289db8e314df260b70391500fa7d7323a87f115a87238630"
+    },
+    {
+      "bytes": 868,
+      "path": "bfe/contracts/07_BFE_SEAL_CERTIFICATE_TEMPLATE.md",
+      "qquap_hmac_sha256": "89bb7ea60983f272aa257888b182e9bc5ec55c666322f21df5047454e293997d",
+      "sha256": "cb1adf329b8db48f19468eea77c9ffb6e8dccd2ad46dc4a7940c8ef3730b96bf"
+    },
+    {
+      "bytes": 3642,
+      "path": "cloudswarm/current.json",
+      "qquap_hmac_sha256": "6980ba333279415c20e0c8165a08d50caaeed7efbcfd02bc68254cc65d4ca32b",
+      "sha256": "cfafaf7505ef1f86f860b826ba571cb6d68346eb1b45bcede39d748628ba1a40"
+    },
+    {
+      "bytes": 1715,
+      "path": "cloudswarm/quomosatnet-realtime-current.json",
+      "qquap_hmac_sha256": "3b0825028dbd04479d5ca8015dd234bcb49ab0c1e52edc4d3a177a92d3ce9f15",
+      "sha256": "e0da60079636c2d75c39c95154a3a7e67dda07b193e06a16668c0bff8621886e"
+    },
+    {
+      "bytes": 2317,
+      "path": "index.html",
+      "qquap_hmac_sha256": "50fa82432089eb005b98bbc0fe121b7718876effb70e73c0d6c9d026cba84562",
+      "sha256": "0151b50cff280994f51e7555b88613b87e317abedb10420eadd4db0e56b7b576"
+    },
+    {
+      "bytes": 0,
+      "path": "install/.gitkeep",
+      "qquap_hmac_sha256": "0fc5dab10714540b66a1eb3197b44775f055bc28ee9e0af7098415feb240f22a",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 1222,
+      "path": "openapi.json",
+      "qquap_hmac_sha256": "74b9ee27377ee0d34bf3d643e99ef3b607475ead04196ea7e01f949670db913d",
+      "sha256": "bbeaacb7b4680bf50da0403646362e9161b1b3a30e437cf8de131c663fc65fe9"
+    },
+    {
+      "bytes": 621,
+      "path": "policy/steelox_cloud_phase2_policy.json",
+      "qquap_hmac_sha256": "92986bda7d0884fff62f5ac2dc0af3598577ae034c7225a9537ceed6e8bac712",
+      "sha256": "f494fde1544c77c568c8e5bc25e85f5f6bdb51b34689db14b5afe7dca81fb7ae"
+    },
+    {
+      "bytes": 665,
+      "path": "policy/steelox_cloud_phase3_policy.json",
+      "qquap_hmac_sha256": "bc2849f7dae11e2d7ef3e542b7c3486b15c6c2edca3b29327ed283064b2ec502",
+      "sha256": "51738da47a427c34478d38be2714a97161eed5d9e79862c23e638f830a3f3788"
+    },
+    {
+      "bytes": 548,
+      "path": "recovery/state.json",
+      "qquap_hmac_sha256": "5c1aad79e323f4d524e679c4a0a10105e1e9f395931ccf2faf5a04261ea0d98c",
+      "sha256": "45fabd7cb9b3da5bcdd5db458c3ca74e4d0097e47c6162c108debb9efbc66923"
+    },
+    {
+      "bytes": 2399,
+      "path": "releases/index.json",
+      "qquap_hmac_sha256": "b4789c13ef56457dddbdc90b68ef8fbab554f24a49f9a37d8b137d9e4d961726",
+      "sha256": "9a8279b15748c540c5ab746acb14cecc48ece02d52c94072f74e753b4894fafb"
+    },
+    {
+      "bytes": 466,
+      "path": "releases/latest.json",
+      "qquap_hmac_sha256": "12391c69bbdaacdc299e85cdc52a8f9ab80b18a3e8d253143716d181fd1cdf10",
+      "sha256": "300cf4427171dd29bbbcc992d29ee9eb466230041368623a22f91a441b770c4d"
+    },
+    {
+      "bytes": 0,
+      "path": "releases/stable-20260429T040501Z/.nojekyll",
+      "qquap_hmac_sha256": "0fc5dab10714540b66a1eb3197b44775f055bc28ee9e0af7098415feb240f22a",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 834,
+      "path": "releases/stable-20260429T040501Z/api/routes.json",
+      "qquap_hmac_sha256": "2d86b1f67044fd0294f4e21c2226f665e5ec86a8012ff6c3548131abe9a9474f",
+      "sha256": "da4c708c69f26cb5799c5626833d4215f079252f22390b2a17ce5aef1bdea0ec"
+    },
+    {
+      "bytes": 2369,
+      "path": "releases/stable-20260429T040501Z/bfe/BFE_SEAL_CERTIFICATE.txt",
+      "qquap_hmac_sha256": "4dc16ccb8802ed97133476aba9a9c988112b9546937790e76d383e2af5d0d248",
+      "sha256": "faef01dea48f25d8fdcd152fe85f849aff1733e1b0c7a99a65b4859501587b19"
+    },
+    {
+      "bytes": 2776,
+      "path": "releases/stable-20260429T040501Z/bfe/bfe_manifest.json",
+      "qquap_hmac_sha256": "62bed438036ecbdb4818e77462796b74f409f58cb445ff6cdda87627667ef017",
+      "sha256": "74d8b95b15d2f23e6a7e05cce8fe393cb3c57bfcaab7d89d957420aff7ae83b0"
+    },
+    {
+      "bytes": 5813,
+      "path": "releases/stable-20260429T040501Z/bfe/contracts/00_STEELOX_TGDK_CLOUD_POLICY.md",
+      "qquap_hmac_sha256": "a3b4fa51908de58f6a3c57153bf13213f813bb8324d7dd905a197c990d90e03d",
+      "sha256": "77f1117a6d9315a988f39570dc8e84c6278a484d8715feb58e68ca8e813d2bb4"
+    },
+    {
+      "bytes": 3222,
+      "path": "releases/stable-20260429T040501Z/bfe/contracts/01_BFE_LICENSE_AGREEMENT.md",
+      "qquap_hmac_sha256": "388688d35c534a98cf06d9f991d172380d97451f73c3cf58fbfaa5ee3e88fae7",
+      "sha256": "3cf071184c641ed7b9c376f559b7d2c88ccd0d63c00c83e054376e90b7b0ea40"
+    },
+    {
+      "bytes": 1980,
+      "path": "releases/stable-20260429T040501Z/bfe/contracts/02_MUTUAL_NDA.md",
+      "qquap_hmac_sha256": "5b44df3e5fd841d43eb71d64e3377c749ab847fd5941ca2a59410a9abc45ebac",
+      "sha256": "da6db08dc0609a7f0303e9e8de0313bf0e67f8e7f5105cadd772d0fc23f78aa8"
+    },
+    {
+      "bytes": 2075,
+      "path": "releases/stable-20260429T040501Z/bfe/contracts/03_DATA_PROCESSING_AND_SECURITY_ADDENDUM.md",
+      "qquap_hmac_sha256": "07d6ef3c3c68fcb5f609146e64d1acd871f333e4c77055c7a49b3b3e517fd569",
+      "sha256": "84dc07a577c56f128e03c61d6dbce76154714cdaf7ab8c5d8fde947c79e6124a"
+    },
+    {
+      "bytes": 1772,
+      "path": "releases/stable-20260429T040501Z/bfe/contracts/04_CLOUD_SWARM_SERVICE_TERMS.md",
+      "qquap_hmac_sha256": "e1dc5b3dd2772353b6f81a4270d3d2de309556261390c869dc5e48dca9bad490",
+      "sha256": "e960ae6015ae62e87a54d1b7f95446429f46c2d876be257c89e946353dbfe827"
+    },
+    {
+      "bytes": 924,
+      "path": "releases/stable-20260429T040501Z/bfe/contracts/05_ACCEPTABLE_USE_POLICY.md",
+      "qquap_hmac_sha256": "b4b86e7dae54eb1cffe78464c8662bbb7dfd92b39b44175d3198c91b79bac2b5",
+      "sha256": "7c54e0e74ee7e33c7684e53da7f4f67fe9cca2c07fa21402418cd2f487bc61b1"
+    },
+    {
+      "bytes": 1128,
+      "path": "releases/stable-20260429T040501Z/bfe/contracts/06_BFE_COUNTERPARTY_ORDER_FORM.md",
+      "qquap_hmac_sha256": "b3f1704062a1b67355b615235de9e406854e0e60bf1d75895a72cbffc0c36eb8",
+      "sha256": "5ce0c841db39d6ea289db8e314df260b70391500fa7d7323a87f115a87238630"
+    },
+    {
+      "bytes": 868,
+      "path": "releases/stable-20260429T040501Z/bfe/contracts/07_BFE_SEAL_CERTIFICATE_TEMPLATE.md",
+      "qquap_hmac_sha256": "89bb7ea60983f272aa257888b182e9bc5ec55c666322f21df5047454e293997d",
+      "sha256": "cb1adf329b8db48f19468eea77c9ffb6e8dccd2ad46dc4a7940c8ef3730b96bf"
+    },
+    {
+      "bytes": 17284,
+      "path": "releases/stable-20260429T040501Z/cloudswarm/current.json",
+      "qquap_hmac_sha256": "8caa0041c24fffcd582b076cd0426c0d39bcb7d660d988105c1e20bdca945992",
+      "sha256": "79acf1c9cba2ec34a9a6731b403f63000d1add458af5103f31794e10f4cdba1e"
+    },
+    {
+      "bytes": 1715,
+      "path": "releases/stable-20260429T040501Z/cloudswarm/quomosatnet-realtime-current.json",
+      "qquap_hmac_sha256": "3b0825028dbd04479d5ca8015dd234bcb49ab0c1e52edc4d3a177a92d3ce9f15",
+      "sha256": "e0da60079636c2d75c39c95154a3a7e67dda07b193e06a16668c0bff8621886e"
+    },
+    {
+      "bytes": 2317,
+      "path": "releases/stable-20260429T040501Z/index.html",
+      "qquap_hmac_sha256": "ef9c8b77d111d4bba93000dc441a0be47b18cbaee481ba50fdea5b790fbb88b0",
+      "sha256": "ddb64b6a90d6d16b4f59ceb10373cfc189f674ea48309f9731aa848ab123efa4"
+    },
+    {
+      "bytes": 1222,
+      "path": "releases/stable-20260429T040501Z/openapi.json",
+      "qquap_hmac_sha256": "74b9ee27377ee0d34bf3d643e99ef3b607475ead04196ea7e01f949670db913d",
+      "sha256": "bbeaacb7b4680bf50da0403646362e9161b1b3a30e437cf8de131c663fc65fe9"
+    },
+    {
+      "bytes": 621,
+      "path": "releases/stable-20260429T040501Z/policy/steelox_cloud_phase2_policy.json",
+      "qquap_hmac_sha256": "92986bda7d0884fff62f5ac2dc0af3598577ae034c7225a9537ceed6e8bac712",
+      "sha256": "f494fde1544c77c568c8e5bc25e85f5f6bdb51b34689db14b5afe7dca81fb7ae"
+    },
+    {
+      "bytes": 665,
+      "path": "releases/stable-20260429T040501Z/policy/steelox_cloud_phase3_policy.json",
+      "qquap_hmac_sha256": "bc2849f7dae11e2d7ef3e542b7c3486b15c6c2edca3b29327ed283064b2ec502",
+      "sha256": "51738da47a427c34478d38be2714a97161eed5d9e79862c23e638f830a3f3788"
+    },
+    {
+      "bytes": 7151,
+      "path": "releases/stable-20260429T040501Z/release_manifest.json",
+      "qquap_hmac_sha256": "073c4550c90c8e32bebe0b311fb7653aac53bedd19295a8662f00a6e650a3632",
+      "sha256": "96162839d73135cbcaa9b423e2198bd3b15d26aa27d55a75fbeaa250ee3faa49"
+    },
+    {
+      "bytes": 511265,
+      "path": "releases/stable-20260429T040501Z/satcount/tgdk-satcount-raw.json",
+      "qquap_hmac_sha256": "a012fa5d9c006c1bc29ad5c2e229169762c233e581968444efb23b03a1d9020d",
+      "sha256": "ad2dab585699613d537dadacfa87546eb4252ed11090630f78da04a71d96d978"
+    },
+    {
+      "bytes": 24858,
+      "path": "releases/stable-20260429T040501Z/satcount/tgdk-satcount-summary.json",
+      "qquap_hmac_sha256": "c6c845d3ab689b7fb86fa37c864fa78e7087c637a966b90683da258792e1fb8d",
+      "sha256": "69e64b001bf2bee2b722703c7335102e92e772a664d382179142d8d8c98cbab3"
+    },
+    {
+      "bytes": 713,
+      "path": "releases/stable-20260429T040501Z/status/phase2.json",
+      "qquap_hmac_sha256": "ed996c1745ba89dac9766a226e98cea96237d833fbcf7ae1b2bca1876121e5c2",
+      "sha256": "1a561f412cca6eecf21489170a34d73a1c1eeba3ceb934ac5542a8278ec8b2aa"
+    },
+    {
+      "bytes": 11820,
+      "path": "releases/stable-20260429T040501Z/status/phase3.json",
+      "qquap_hmac_sha256": "68eb34468e478c34fb1952c16fc45c7af4e41cf7012744a15301b1b9aee0e84c",
+      "sha256": "f695ebdfe475977db17549c44667214c4bfb26e99098ad139271493c52bbf7a3"
+    },
+    {
+      "bytes": 6743,
+      "path": "releases/stable-20260429T040501Z/swarm/manifold.json",
+      "qquap_hmac_sha256": "6a1845035a0c45be6e7846869802b7da7feecdd413178b21695794746b9663fc",
+      "sha256": "a2dc52728ded74f404e7f841c806ddbc1428c3a966720f197910731064f92ba2"
+    },
+    {
+      "bytes": 0,
+      "path": "releases/stable-20260429T040520Z/.nojekyll",
+      "qquap_hmac_sha256": "0fc5dab10714540b66a1eb3197b44775f055bc28ee9e0af7098415feb240f22a",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 834,
+      "path": "releases/stable-20260429T040520Z/api/routes.json",
+      "qquap_hmac_sha256": "5e30740c2ced425fbbecfe537d61ba1405ea93f941648f774a289bfe84a2a4e0",
+      "sha256": "d809ea9064f6431f3ddbeb3470929489170d3eb3b6a51b3e834d29716bba83a1"
+    },
+    {
+      "bytes": 2369,
+      "path": "releases/stable-20260429T040520Z/bfe/BFE_SEAL_CERTIFICATE.txt",
+      "qquap_hmac_sha256": "685ed8ad942351b13c743458bc94eb566cfd7b604fa85126ab7e05eb61cee697",
+      "sha256": "f0664cd21870b52f5fbdf5fd184b3379b71679ad79fbe4390623fe4c26c1003a"
+    },
+    {
+      "bytes": 2776,
+      "path": "releases/stable-20260429T040520Z/bfe/bfe_manifest.json",
+      "qquap_hmac_sha256": "7b98a92929d3b98cd7bb084fd0e5b52fff416e4dec93ec1a31e78144eab3d948",
+      "sha256": "27d12c2e8bb8caa2ce1ed3a60798afb0405d5112e06076238ea8828e64f44d69"
+    },
+    {
+      "bytes": 5813,
+      "path": "releases/stable-20260429T040520Z/bfe/contracts/00_STEELOX_TGDK_CLOUD_POLICY.md",
+      "qquap_hmac_sha256": "a3b4fa51908de58f6a3c57153bf13213f813bb8324d7dd905a197c990d90e03d",
+      "sha256": "77f1117a6d9315a988f39570dc8e84c6278a484d8715feb58e68ca8e813d2bb4"
+    },
+    {
+      "bytes": 3222,
+      "path": "releases/stable-20260429T040520Z/bfe/contracts/01_BFE_LICENSE_AGREEMENT.md",
+      "qquap_hmac_sha256": "388688d35c534a98cf06d9f991d172380d97451f73c3cf58fbfaa5ee3e88fae7",
+      "sha256": "3cf071184c641ed7b9c376f559b7d2c88ccd0d63c00c83e054376e90b7b0ea40"
+    },
+    {
+      "bytes": 1980,
+      "path": "releases/stable-20260429T040520Z/bfe/contracts/02_MUTUAL_NDA.md",
+      "qquap_hmac_sha256": "5b44df3e5fd841d43eb71d64e3377c749ab847fd5941ca2a59410a9abc45ebac",
+      "sha256": "da6db08dc0609a7f0303e9e8de0313bf0e67f8e7f5105cadd772d0fc23f78aa8"
+    },
+    {
+      "bytes": 2075,
+      "path": "releases/stable-20260429T040520Z/bfe/contracts/03_DATA_PROCESSING_AND_SECURITY_ADDENDUM.md",
+      "qquap_hmac_sha256": "07d6ef3c3c68fcb5f609146e64d1acd871f333e4c77055c7a49b3b3e517fd569",
+      "sha256": "84dc07a577c56f128e03c61d6dbce76154714cdaf7ab8c5d8fde947c79e6124a"
+    },
+    {
+      "bytes": 1772,
+      "path": "releases/stable-20260429T040520Z/bfe/contracts/04_CLOUD_SWARM_SERVICE_TERMS.md",
+      "qquap_hmac_sha256": "e1dc5b3dd2772353b6f81a4270d3d2de309556261390c869dc5e48dca9bad490",
+      "sha256": "e960ae6015ae62e87a54d1b7f95446429f46c2d876be257c89e946353dbfe827"
+    },
+    {
+      "bytes": 924,
+      "path": "releases/stable-20260429T040520Z/bfe/contracts/05_ACCEPTABLE_USE_POLICY.md",
+      "qquap_hmac_sha256": "b4b86e7dae54eb1cffe78464c8662bbb7dfd92b39b44175d3198c91b79bac2b5",
+      "sha256": "7c54e0e74ee7e33c7684e53da7f4f67fe9cca2c07fa21402418cd2f487bc61b1"
+    },
+    {
+      "bytes": 1128,
+      "path": "releases/stable-20260429T040520Z/bfe/contracts/06_BFE_COUNTERPARTY_ORDER_FORM.md",
+      "qquap_hmac_sha256": "b3f1704062a1b67355b615235de9e406854e0e60bf1d75895a72cbffc0c36eb8",
+      "sha256": "5ce0c841db39d6ea289db8e314df260b70391500fa7d7323a87f115a87238630"
+    },
+    {
+      "bytes": 868,
+      "path": "releases/stable-20260429T040520Z/bfe/contracts/07_BFE_SEAL_CERTIFICATE_TEMPLATE.md",
+      "qquap_hmac_sha256": "89bb7ea60983f272aa257888b182e9bc5ec55c666322f21df5047454e293997d",
+      "sha256": "cb1adf329b8db48f19468eea77c9ffb6e8dccd2ad46dc4a7940c8ef3730b96bf"
+    },
+    {
+      "bytes": 27636,
+      "path": "releases/stable-20260429T040520Z/cloudswarm/current.json",
+      "qquap_hmac_sha256": "78bc0a57b27b308660e1046a5c630df75d6c2068c4e348ae3a0b79b327f061ff",
+      "sha256": "45a4b854306e07f89b6b7fd75a64f96c61ece965da495ce57d643c00f03dc487"
+    },
+    {
+      "bytes": 1715,
+      "path": "releases/stable-20260429T040520Z/cloudswarm/quomosatnet-realtime-current.json",
+      "qquap_hmac_sha256": "3b0825028dbd04479d5ca8015dd234bcb49ab0c1e52edc4d3a177a92d3ce9f15",
+      "sha256": "e0da60079636c2d75c39c95154a3a7e67dda07b193e06a16668c0bff8621886e"
+    },
+    {
+      "bytes": 2317,
+      "path": "releases/stable-20260429T040520Z/index.html",
+      "qquap_hmac_sha256": "14b7a117a168f5e53380e76546e735ce8ddf532ec21cf5c04d7c146fc61b223b",
+      "sha256": "3674722296438a12d2f1c0752b5d2bdf79d7f80929788767b26ac5a1ecb2c883"
+    },
+    {
+      "bytes": 1222,
+      "path": "releases/stable-20260429T040520Z/openapi.json",
+      "qquap_hmac_sha256": "74b9ee27377ee0d34bf3d643e99ef3b607475ead04196ea7e01f949670db913d",
+      "sha256": "bbeaacb7b4680bf50da0403646362e9161b1b3a30e437cf8de131c663fc65fe9"
+    },
+    {
+      "bytes": 621,
+      "path": "releases/stable-20260429T040520Z/policy/steelox_cloud_phase2_policy.json",
+      "qquap_hmac_sha256": "92986bda7d0884fff62f5ac2dc0af3598577ae034c7225a9537ceed6e8bac712",
+      "sha256": "f494fde1544c77c568c8e5bc25e85f5f6bdb51b34689db14b5afe7dca81fb7ae"
+    },
+    {
+      "bytes": 665,
+      "path": "releases/stable-20260429T040520Z/policy/steelox_cloud_phase3_policy.json",
+      "qquap_hmac_sha256": "bc2849f7dae11e2d7ef3e542b7c3486b15c6c2edca3b29327ed283064b2ec502",
+      "sha256": "51738da47a427c34478d38be2714a97161eed5d9e79862c23e638f830a3f3788"
+    },
+    {
+      "bytes": 7337,
+      "path": "releases/stable-20260429T040520Z/release_manifest.json",
+      "qquap_hmac_sha256": "63f94272942723bf61ae3f0ef52b83a72f469bb0f13ac08d3b24fadc02cdbe9f",
+      "sha256": "a1e74b4f7c32c4302932c7bf7a91ea92caae7c251da3b7abc3071711455e1f68"
+    },
+    {
+      "bytes": 511265,
+      "path": "releases/stable-20260429T040520Z/satcount/tgdk-satcount-raw.json",
+      "qquap_hmac_sha256": "a012fa5d9c006c1bc29ad5c2e229169762c233e581968444efb23b03a1d9020d",
+      "sha256": "ad2dab585699613d537dadacfa87546eb4252ed11090630f78da04a71d96d978"
+    },
+    {
+      "bytes": 24858,
+      "path": "releases/stable-20260429T040520Z/satcount/tgdk-satcount-summary.json",
+      "qquap_hmac_sha256": "011c789e257ac76a241ab75f93f6818620d221cd80586c4d0b2e7d9f4dababb1",
+      "sha256": "1bc4a9d75422d2a37a4674fa387143ab8fac60fd938de14c78143c21ac4a31de"
+    },
+    {
+      "bytes": 713,
+      "path": "releases/stable-20260429T040520Z/status/phase2.json",
+      "qquap_hmac_sha256": "ed996c1745ba89dac9766a226e98cea96237d833fbcf7ae1b2bca1876121e5c2",
+      "sha256": "1a561f412cca6eecf21489170a34d73a1c1eeba3ceb934ac5542a8278ec8b2aa"
+    },
+    {
+      "bytes": 11790,
+      "path": "releases/stable-20260429T040520Z/status/phase3.json",
+      "qquap_hmac_sha256": "1699670ac0abc978980912a2afb2cc63f1eb0ac657a89daa1c48cbf6e67a8ba4",
+      "sha256": "e8981d7068dbeee553594b1ce07729bf6ca09ef0b7bf358cd51d384a02affc73"
+    },
+    {
+      "bytes": 684,
+      "path": "releases/stable-20260429T040520Z/status/phase4.json",
+      "qquap_hmac_sha256": "51ea95a9b7e77ed00871a67e8a7374ce61065f06c7dd373b0a17beb9250fda06",
+      "sha256": "f5087f3f52e3d81afa0a07c1a8b74a3735de9b3031773c1f25dd4b39551b308f"
+    },
+    {
+      "bytes": 6719,
+      "path": "releases/stable-20260429T040520Z/swarm/manifold.json",
+      "qquap_hmac_sha256": "8866b985758120375588d61141665d78174786b6fa689a8da395c584ddb98232",
+      "sha256": "1430b5588443a6f4e4b07daf0143cc2675941b0c75f2885e12c5b0947d690430"
+    },
+    {
+      "bytes": 0,
+      "path": "releases/stable-20260429T053518Z/.nojekyll",
+      "qquap_hmac_sha256": "0fc5dab10714540b66a1eb3197b44775f055bc28ee9e0af7098415feb240f22a",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 834,
+      "path": "releases/stable-20260429T053518Z/api/routes.json",
+      "qquap_hmac_sha256": "66475955ff8b64346b7c644a56e0922e0f7f09edfc8780d9fa5e708f8a68268b",
+      "sha256": "0960a59dd25eeae02ffc8ded636231d951456c994a17f97c408b7c852c95ad9a"
+    },
+    {
+      "bytes": 2369,
+      "path": "releases/stable-20260429T053518Z/bfe/BFE_SEAL_CERTIFICATE.txt",
+      "qquap_hmac_sha256": "cd7fdd1359c15bb4d53c7b242070c493b431f68450c79b0c5f6b559df0245217",
+      "sha256": "6268db88b07e8230dc95081b3a670ea7fed219b577fba95175e1defb2c0a2958"
+    },
+    {
+      "bytes": 2776,
+      "path": "releases/stable-20260429T053518Z/bfe/bfe_manifest.json",
+      "qquap_hmac_sha256": "38fda0bdff2ba0f6af9c9991d48bc9a71f65b8343bfaf735d7bdde4062094c1f",
+      "sha256": "9076c693643a30ede73abaf33849f00cda5c89f94dc758154022b356638461cc"
+    },
+    {
+      "bytes": 5813,
+      "path": "releases/stable-20260429T053518Z/bfe/contracts/00_STEELOX_TGDK_CLOUD_POLICY.md",
+      "qquap_hmac_sha256": "a3b4fa51908de58f6a3c57153bf13213f813bb8324d7dd905a197c990d90e03d",
+      "sha256": "77f1117a6d9315a988f39570dc8e84c6278a484d8715feb58e68ca8e813d2bb4"
+    },
+    {
+      "bytes": 3222,
+      "path": "releases/stable-20260429T053518Z/bfe/contracts/01_BFE_LICENSE_AGREEMENT.md",
+      "qquap_hmac_sha256": "388688d35c534a98cf06d9f991d172380d97451f73c3cf58fbfaa5ee3e88fae7",
+      "sha256": "3cf071184c641ed7b9c376f559b7d2c88ccd0d63c00c83e054376e90b7b0ea40"
+    },
+    {
+      "bytes": 1980,
+      "path": "releases/stable-20260429T053518Z/bfe/contracts/02_MUTUAL_NDA.md",
+      "qquap_hmac_sha256": "5b44df3e5fd841d43eb71d64e3377c749ab847fd5941ca2a59410a9abc45ebac",
+      "sha256": "da6db08dc0609a7f0303e9e8de0313bf0e67f8e7f5105cadd772d0fc23f78aa8"
+    },
+    {
+      "bytes": 2075,
+      "path": "releases/stable-20260429T053518Z/bfe/contracts/03_DATA_PROCESSING_AND_SECURITY_ADDENDUM.md",
+      "qquap_hmac_sha256": "07d6ef3c3c68fcb5f609146e64d1acd871f333e4c77055c7a49b3b3e517fd569",
+      "sha256": "84dc07a577c56f128e03c61d6dbce76154714cdaf7ab8c5d8fde947c79e6124a"
+    },
+    {
+      "bytes": 1772,
+      "path": "releases/stable-20260429T053518Z/bfe/contracts/04_CLOUD_SWARM_SERVICE_TERMS.md",
+      "qquap_hmac_sha256": "e1dc5b3dd2772353b6f81a4270d3d2de309556261390c869dc5e48dca9bad490",
+      "sha256": "e960ae6015ae62e87a54d1b7f95446429f46c2d876be257c89e946353dbfe827"
+    },
+    {
+      "bytes": 924,
+      "path": "releases/stable-20260429T053518Z/bfe/contracts/05_ACCEPTABLE_USE_POLICY.md",
+      "qquap_hmac_sha256": "b4b86e7dae54eb1cffe78464c8662bbb7dfd92b39b44175d3198c91b79bac2b5",
+      "sha256": "7c54e0e74ee7e33c7684e53da7f4f67fe9cca2c07fa21402418cd2f487bc61b1"
+    },
+    {
+      "bytes": 1128,
+      "path": "releases/stable-20260429T053518Z/bfe/contracts/06_BFE_COUNTERPARTY_ORDER_FORM.md",
+      "qquap_hmac_sha256": "b3f1704062a1b67355b615235de9e406854e0e60bf1d75895a72cbffc0c36eb8",
+      "sha256": "5ce0c841db39d6ea289db8e314df260b70391500fa7d7323a87f115a87238630"
+    },
+    {
+      "bytes": 868,
+      "path": "releases/stable-20260429T053518Z/bfe/contracts/07_BFE_SEAL_CERTIFICATE_TEMPLATE.md",
+      "qquap_hmac_sha256": "89bb7ea60983f272aa257888b182e9bc5ec55c666322f21df5047454e293997d",
+      "sha256": "cb1adf329b8db48f19468eea77c9ffb6e8dccd2ad46dc4a7940c8ef3730b96bf"
+    },
+    {
+      "bytes": 6111300,
+      "path": "releases/stable-20260429T053518Z/cloudswarm/current.json",
+      "qquap_hmac_sha256": "b5765ff300f933aaf4bc2b3dc851a8c173071cd6043d07329b865bb56f62ca24",
+      "sha256": "a79d270e7dbeb64693c4d0b657696650edf4ece1f1ef3cba798b9d6df385bb38"
+    },
+    {
+      "bytes": 1715,
+      "path": "releases/stable-20260429T053518Z/cloudswarm/quomosatnet-realtime-current.json",
+      "qquap_hmac_sha256": "3b0825028dbd04479d5ca8015dd234bcb49ab0c1e52edc4d3a177a92d3ce9f15",
+      "sha256": "e0da60079636c2d75c39c95154a3a7e67dda07b193e06a16668c0bff8621886e"
+    },
+    {
+      "bytes": 2317,
+      "path": "releases/stable-20260429T053518Z/index.html",
+      "qquap_hmac_sha256": "b6dccfe558d044d718b62d787f9363916b832f2efb14c86c7d4f6ea692b9cd17",
+      "sha256": "762dbafdefbcb6a4942c327f0e716a1f49e8d4fc9c92637958ba11efa0e163ea"
+    },
+    {
+      "bytes": 1222,
+      "path": "releases/stable-20260429T053518Z/openapi.json",
+      "qquap_hmac_sha256": "74b9ee27377ee0d34bf3d643e99ef3b607475ead04196ea7e01f949670db913d",
+      "sha256": "bbeaacb7b4680bf50da0403646362e9161b1b3a30e437cf8de131c663fc65fe9"
+    },
+    {
+      "bytes": 621,
+      "path": "releases/stable-20260429T053518Z/policy/steelox_cloud_phase2_policy.json",
+      "qquap_hmac_sha256": "92986bda7d0884fff62f5ac2dc0af3598577ae034c7225a9537ceed6e8bac712",
+      "sha256": "f494fde1544c77c568c8e5bc25e85f5f6bdb51b34689db14b5afe7dca81fb7ae"
+    },
+    {
+      "bytes": 665,
+      "path": "releases/stable-20260429T053518Z/policy/steelox_cloud_phase3_policy.json",
+      "qquap_hmac_sha256": "bc2849f7dae11e2d7ef3e542b7c3486b15c6c2edca3b29327ed283064b2ec502",
+      "sha256": "51738da47a427c34478d38be2714a97161eed5d9e79862c23e638f830a3f3788"
+    },
+    {
+      "bytes": 548,
+      "path": "releases/stable-20260429T053518Z/recovery/state.json",
+      "qquap_hmac_sha256": "68367a9ee0d506c2ddfd1eb490279f80a49e4cdd295e754d2fe97725cca0e8ae",
+      "sha256": "d2c3c4963912d64f89eae5f5acc10805dedbe3b4a87bd726bfc949ea5a57496d"
+    },
+    {
+      "bytes": 7700,
+      "path": "releases/stable-20260429T053518Z/release_manifest.json",
+      "qquap_hmac_sha256": "dcadf559024e25ea45fba3ba4afc093f4d83cdd633c7a4a8281b76bbba2218f9",
+      "sha256": "5a2fe7e05514d28c692bddf794cb6652ef6e0eca31ac0d5e41819f3279a8a432"
+    },
+    {
+      "bytes": 511265,
+      "path": "releases/stable-20260429T053518Z/satcount/tgdk-satcount-raw.json",
+      "qquap_hmac_sha256": "a012fa5d9c006c1bc29ad5c2e229169762c233e581968444efb23b03a1d9020d",
+      "sha256": "ad2dab585699613d537dadacfa87546eb4252ed11090630f78da04a71d96d978"
+    },
+    {
+      "bytes": 24858,
+      "path": "releases/stable-20260429T053518Z/satcount/tgdk-satcount-summary.json",
+      "qquap_hmac_sha256": "be6318ae4dc9656a6e0a5f65a9d825973b00e1ecd870bd8468efa999a7fcc03e",
+      "sha256": "bddd8d5824320f1dde040565c5399a44cba9570c98513f046f2b001da51c3b0f"
+    },
+    {
+      "bytes": 358,
+      "path": "releases/stable-20260429T053518Z/status/assembly.json",
+      "qquap_hmac_sha256": "0c66d53c5cb45bbb7c064b27ef7d7a76d141d6c39e92b72c195ecdeb67d03163",
+      "sha256": "d68f501cae24a83ac4641dcfcd02ad25244fb446fd4e09e395bab94745117246"
+    },
+    {
+      "bytes": 713,
+      "path": "releases/stable-20260429T053518Z/status/phase2.json",
+      "qquap_hmac_sha256": "5872cbf820653c4f677ec7eda5bcee4a13788f7d9e85ad99254c4e7681976355",
+      "sha256": "c165532f58c8580278233c698be286d91ac061cc391228b4e83455979677c036"
+    },
+    {
+      "bytes": 11811,
+      "path": "releases/stable-20260429T053518Z/status/phase3.json",
+      "qquap_hmac_sha256": "8157972f144fea0b8af41eb3c3baf26de9d55425d3c3061e3e179f980d1acd81",
+      "sha256": "44a09bffd6d45433df314072861b1cc5ac7a544d6c7a7efd3d7998cbcabc423b"
+    },
+    {
+      "bytes": 684,
+      "path": "releases/stable-20260429T053518Z/status/phase4.json",
+      "qquap_hmac_sha256": "a3215ed207be20e05d2cdcd53bdb41d22200ca32a42cdf31a278710a3fa0e72d",
+      "sha256": "ffe5cd6b73948574e7d80a2ec2047cdd57a7d183bc291541629761d98efb8893"
+    },
+    {
+      "bytes": 6743,
+      "path": "releases/stable-20260429T053518Z/swarm/manifold.json",
+      "qquap_hmac_sha256": "09bfc6e85c60ad265fdabe121ab037271bb1f29ef7d893c80b64f2d2c858ea57",
+      "sha256": "77a899c75db08e7971031cebaeaf44820647c80e4460e5bba17eadf9a6d8b7c5"
+    },
+    {
+      "bytes": 0,
+      "path": "releases/stable-20260429T054127Z/.nojekyll",
+      "qquap_hmac_sha256": "0fc5dab10714540b66a1eb3197b44775f055bc28ee9e0af7098415feb240f22a",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 834,
+      "path": "releases/stable-20260429T054127Z/api/routes.json",
+      "qquap_hmac_sha256": "2357a186a284a92a82899a27539e004bc4feb8915bf2d7267c0713ce891409f3",
+      "sha256": "cfca300c3be3b4591567577690a1b6c740804b0444b5e125e313163632039b9a"
+    },
+    {
+      "bytes": 2369,
+      "path": "releases/stable-20260429T054127Z/bfe/BFE_SEAL_CERTIFICATE.txt",
+      "qquap_hmac_sha256": "b6ee027ba3e78eb428de96428afe448084714aa6120267d401791730030ecaeb",
+      "sha256": "28bac2ba426f7198c0edabc203ed27edb7392ee0a2c2f3d6aac968deb75e0842"
+    },
+    {
+      "bytes": 2776,
+      "path": "releases/stable-20260429T054127Z/bfe/bfe_manifest.json",
+      "qquap_hmac_sha256": "2a87bf2e64a0dc7dec49fc212538e428ba8833c9af34192c0d85971f2c192d01",
+      "sha256": "b191cc1b435ebb09bcf69c4534e390da42f746fba5eb4220fff6a135a901b2aa"
+    },
+    {
+      "bytes": 5813,
+      "path": "releases/stable-20260429T054127Z/bfe/contracts/00_STEELOX_TGDK_CLOUD_POLICY.md",
+      "qquap_hmac_sha256": "a3b4fa51908de58f6a3c57153bf13213f813bb8324d7dd905a197c990d90e03d",
+      "sha256": "77f1117a6d9315a988f39570dc8e84c6278a484d8715feb58e68ca8e813d2bb4"
+    },
+    {
+      "bytes": 3222,
+      "path": "releases/stable-20260429T054127Z/bfe/contracts/01_BFE_LICENSE_AGREEMENT.md",
+      "qquap_hmac_sha256": "388688d35c534a98cf06d9f991d172380d97451f73c3cf58fbfaa5ee3e88fae7",
+      "sha256": "3cf071184c641ed7b9c376f559b7d2c88ccd0d63c00c83e054376e90b7b0ea40"
+    },
+    {
+      "bytes": 1980,
+      "path": "releases/stable-20260429T054127Z/bfe/contracts/02_MUTUAL_NDA.md",
+      "qquap_hmac_sha256": "5b44df3e5fd841d43eb71d64e3377c749ab847fd5941ca2a59410a9abc45ebac",
+      "sha256": "da6db08dc0609a7f0303e9e8de0313bf0e67f8e7f5105cadd772d0fc23f78aa8"
+    },
+    {
+      "bytes": 2075,
+      "path": "releases/stable-20260429T054127Z/bfe/contracts/03_DATA_PROCESSING_AND_SECURITY_ADDENDUM.md",
+      "qquap_hmac_sha256": "07d6ef3c3c68fcb5f609146e64d1acd871f333e4c77055c7a49b3b3e517fd569",
+      "sha256": "84dc07a577c56f128e03c61d6dbce76154714cdaf7ab8c5d8fde947c79e6124a"
+    },
+    {
+      "bytes": 1772,
+      "path": "releases/stable-20260429T054127Z/bfe/contracts/04_CLOUD_SWARM_SERVICE_TERMS.md",
+      "qquap_hmac_sha256": "e1dc5b3dd2772353b6f81a4270d3d2de309556261390c869dc5e48dca9bad490",
+      "sha256": "e960ae6015ae62e87a54d1b7f95446429f46c2d876be257c89e946353dbfe827"
+    },
+    {
+      "bytes": 924,
+      "path": "releases/stable-20260429T054127Z/bfe/contracts/05_ACCEPTABLE_USE_POLICY.md",
+      "qquap_hmac_sha256": "b4b86e7dae54eb1cffe78464c8662bbb7dfd92b39b44175d3198c91b79bac2b5",
+      "sha256": "7c54e0e74ee7e33c7684e53da7f4f67fe9cca2c07fa21402418cd2f487bc61b1"
+    },
+    {
+      "bytes": 1128,
+      "path": "releases/stable-20260429T054127Z/bfe/contracts/06_BFE_COUNTERPARTY_ORDER_FORM.md",
+      "qquap_hmac_sha256": "b3f1704062a1b67355b615235de9e406854e0e60bf1d75895a72cbffc0c36eb8",
+      "sha256": "5ce0c841db39d6ea289db8e314df260b70391500fa7d7323a87f115a87238630"
+    },
+    {
+      "bytes": 868,
+      "path": "releases/stable-20260429T054127Z/bfe/contracts/07_BFE_SEAL_CERTIFICATE_TEMPLATE.md",
+      "qquap_hmac_sha256": "89bb7ea60983f272aa257888b182e9bc5ec55c666322f21df5047454e293997d",
+      "sha256": "cb1adf329b8db48f19468eea77c9ffb6e8dccd2ad46dc4a7940c8ef3730b96bf"
+    },
+    {
+      "bytes": 3641,
+      "path": "releases/stable-20260429T054127Z/cloudswarm/current.json",
+      "qquap_hmac_sha256": "94c41748d422798bfb38fd38f16a0256cdb4602ffc10d72ec23b01755a264436",
+      "sha256": "2dd7e4142765b90f266ed1de61f8fc0511cca0f6885f773160652ca3815d3339"
+    },
+    {
+      "bytes": 1715,
+      "path": "releases/stable-20260429T054127Z/cloudswarm/quomosatnet-realtime-current.json",
+      "qquap_hmac_sha256": "3b0825028dbd04479d5ca8015dd234bcb49ab0c1e52edc4d3a177a92d3ce9f15",
+      "sha256": "e0da60079636c2d75c39c95154a3a7e67dda07b193e06a16668c0bff8621886e"
+    },
+    {
+      "bytes": 2317,
+      "path": "releases/stable-20260429T054127Z/index.html",
+      "qquap_hmac_sha256": "9dbf25889730fd73ad372736a7be81c3eb66f897a1ec80bf395926357545e920",
+      "sha256": "324fdc832a12156d60dfe06996e3df7af4d239bb3de70fb91fe0767a2d700a57"
+    },
+    {
+      "bytes": 1222,
+      "path": "releases/stable-20260429T054127Z/openapi.json",
+      "qquap_hmac_sha256": "74b9ee27377ee0d34bf3d643e99ef3b607475ead04196ea7e01f949670db913d",
+      "sha256": "bbeaacb7b4680bf50da0403646362e9161b1b3a30e437cf8de131c663fc65fe9"
+    },
+    {
+      "bytes": 621,
+      "path": "releases/stable-20260429T054127Z/policy/steelox_cloud_phase2_policy.json",
+      "qquap_hmac_sha256": "92986bda7d0884fff62f5ac2dc0af3598577ae034c7225a9537ceed6e8bac712",
+      "sha256": "f494fde1544c77c568c8e5bc25e85f5f6bdb51b34689db14b5afe7dca81fb7ae"
+    },
+    {
+      "bytes": 665,
+      "path": "releases/stable-20260429T054127Z/policy/steelox_cloud_phase3_policy.json",
+      "qquap_hmac_sha256": "bc2849f7dae11e2d7ef3e542b7c3486b15c6c2edca3b29327ed283064b2ec502",
+      "sha256": "51738da47a427c34478d38be2714a97161eed5d9e79862c23e638f830a3f3788"
+    },
+    {
+      "bytes": 548,
+      "path": "releases/stable-20260429T054127Z/recovery/state.json",
+      "qquap_hmac_sha256": "4934e6c0160d8824605c3ac97e2e7f3d0901c751877a9be6978e792abf08a31a",
+      "sha256": "a18165312e96f0d4c4fbe6bd7437599788c340401f1ad4babd552f8a5a4bedd7"
+    },
+    {
+      "bytes": 9434,
+      "path": "releases/stable-20260429T054127Z/release_manifest.json",
+      "qquap_hmac_sha256": "28827e4cd83804de776c7bc3c7725166f5f962ccd5cf8422b6e271e70421e634",
+      "sha256": "f64b6c82d80b4e2ec7fe9cd543965fdf79be809290eab8e526484e3d02205883"
+    },
+    {
+      "bytes": 511265,
+      "path": "releases/stable-20260429T054127Z/satcount/tgdk-satcount-raw.json",
+      "qquap_hmac_sha256": "a012fa5d9c006c1bc29ad5c2e229169762c233e581968444efb23b03a1d9020d",
+      "sha256": "ad2dab585699613d537dadacfa87546eb4252ed11090630f78da04a71d96d978"
+    },
+    {
+      "bytes": 24858,
+      "path": "releases/stable-20260429T054127Z/satcount/tgdk-satcount-summary.json",
+      "qquap_hmac_sha256": "9ff5a6aa5231646c84d1044d4d7c11d04cc1fe251cdf04ec63613b5fb2785997",
+      "sha256": "a93b76e481994f8e01155c6396084ea7c492a96caf0b8646858eab8df07a5970"
+    },
+    {
+      "bytes": 358,
+      "path": "releases/stable-20260429T054127Z/status/assembly.json",
+      "qquap_hmac_sha256": "e3c9d47e7cb09ca8e8726ec168bb84941fc83afebddc14a9da5593644890b2f8",
+      "sha256": "7f220272f49f7ced145d8df86dd28cb94f0d09f22a89357cd961a5139b30534a"
+    },
+    {
+      "bytes": 713,
+      "path": "releases/stable-20260429T054127Z/status/phase2.json",
+      "qquap_hmac_sha256": "c2c025f02ea6d1a99ebdf5eb6c3f75b63f2a6e8e0fca7f80021d040506a4c875",
+      "sha256": "3b5b502aadb71aa449899dd73a5f338fc8a6737863d2c07423769b505c412793"
+    },
+    {
+      "bytes": 11890,
+      "path": "releases/stable-20260429T054127Z/status/phase3.json",
+      "qquap_hmac_sha256": "ddd34a9dae5c1368cd90582895375d8786b0ac3c89c98ac95f4384030490ad38",
+      "sha256": "3b6336468d03e6179a4b02d36ada2194025ec2745ca053c1d11f41257b047809"
+    },
+    {
+      "bytes": 684,
+      "path": "releases/stable-20260429T054127Z/status/phase4.json",
+      "qquap_hmac_sha256": "3db1c70d645f66271f239f354df0a549556e2aa0955b062cce624df35df5c569",
+      "sha256": "dbe2a3bba60f52404e86f80e572d34190ce8f306f97053f03277bdbb228d72c4"
+    },
+    {
+      "bytes": 6719,
+      "path": "releases/stable-20260429T054127Z/swarm/manifold.json",
+      "qquap_hmac_sha256": "084b685fec776f6c938ae3fbae49e5eadb4b2e24d040e86b895f68fc552f0a58",
+      "sha256": "7e01aa903edae265e446138fd64032acae67a09d36adad733b30b17104a5506a"
+    },
+    {
+      "bytes": 511265,
+      "path": "satcount/tgdk-satcount-raw.json",
+      "qquap_hmac_sha256": "a012fa5d9c006c1bc29ad5c2e229169762c233e581968444efb23b03a1d9020d",
+      "sha256": "ad2dab585699613d537dadacfa87546eb4252ed11090630f78da04a71d96d978"
+    },
+    {
+      "bytes": 24858,
+      "path": "satcount/tgdk-satcount-summary.json",
+      "qquap_hmac_sha256": "318291418a4f30d775cd4009eda6c5b619051ad40d8c679a1f2f07d6aa355c19",
+      "sha256": "43779da5337d3ff077e431612edeaf4ad4a6a2a1f6a48db7f757dabdac651ecb"
+    },
+    {
+      "bytes": 358,
+      "path": "status/assembly.json",
+      "qquap_hmac_sha256": "8972241efc36da3df616eaa5f9198908a15ef9514e9221ac312fddca6dae115a",
+      "sha256": "aa4d559f358dc8cf7afc86715fcb1564593a745d07c7180506edff84281d4c14"
+    },
+    {
+      "bytes": 713,
+      "path": "status/phase2.json",
+      "qquap_hmac_sha256": "6174e0c39a15ac0039ffbdeea8742cd789dbcab4705f3e47d26ad7e445b06c1d",
+      "sha256": "ae1f9db5310cbf3b34a2575f40e3e9d9d52747b3bf4ba3fd90675981dd4d3ba9"
+    },
+    {
+      "bytes": 11890,
+      "path": "status/phase3.json",
+      "qquap_hmac_sha256": "b318a147d91683959ec36c03a91f919429a0d4624ea94a103b191b1694edbe80",
+      "sha256": "bf202447311687d2411eafd2dd34a0d367d2505746ea6796277d5f42f2b6c7dd"
+    },
+    {
+      "bytes": 348,
+      "path": "status/phase4.json",
+      "qquap_hmac_sha256": "36f068d4a4e4fd08c8446b3c5538299d7810702d21336655a147f5b38dd3d84c",
+      "sha256": "d3a43b54cdc2d8e5a0e35fdd703ec7db2371a88841d442279ff7a3357d542f17"
+    },
+    {
+      "bytes": 6719,
+      "path": "swarm/manifold.json",
+      "qquap_hmac_sha256": "64365cfe16e3abc13be4f02e0c10736cca32195ba3d73242f04782d58dbff4ce",
+      "sha256": "ddd52eda1d98f3cb9ff7c8794a11c36591343238a6265d370ad54cf8219339dc"
+    }
+  ],
+  "pages_qquap_hmac_sha256": "9184a1d60b17b749a850740270ee227da916b84884f23e1a4582bd23688421d2",
+  "pages_sha256": "4905a359d453124bc1d790bff6c426e582f2aea07334e6b1ba5e1392f705564c",
+  "stamp_utc": "2026-04-29T06:00:25.881787+00:00",
+  "version": "1.0.0"
+}

@@ -1,0 +1,10 @@
+{
+  "channel": "stable",
+  "manifest": "releases/stable-20260429T080935Z/release_manifest.json",
+  "note": "assembly automatic release",
+  "path": "releases/stable-20260429T080935Z/",
+  "release_id": "stable-20260429T080935Z",
+  "release_qquap_hmac_sha256": "98534072cf3d9a43695f1262f53f8ea5fef314a9bde308d35e55a49bf7d206ab",
+  "release_sha256": "6328c2e0338fe4a24ca8c2fd3054e8b3f68eddef55d777cc19eb27572c640233",
+  "stamp_utc": "2026-04-29T08:09:35.959633+00:00"
+}

@@ -1,0 +1,21 @@
+{
+  "engine": "SteelOx.Cloud.Pages.RouteMap",
+  "local_live_routes": {
+    "health": "http://127.0.0.1:8788/health",
+    "resolve": "http://127.0.0.1:8788/proxy/resolve?service=steelox.proxy.uplink",
+    "status": "http://127.0.0.1:8788/proxy/status",
+    "uplink": "http://127.0.0.1:8788/proxy/uplink?service=steelox.proxy.uplink"
+  },
+  "stamp_utc": "2026-04-29T06:36:39.282497+00:00",
+  "static_pages_routes": {
+    "/": "SteelOx Cloud home",
+    "/api/routes.json": "Static route map",
+    "/bfe/BFE_SEAL_CERTIFICATE.txt": "BFE certificate",
+    "/bfe/bfe_manifest.json": "BFE manifest",
+    "/cloudswarm/current.json": "CloudSwarm snapshot",
+    "/openapi.json": "OpenAPI JSON",
+    "/satcount/tgdk-satcount-summary.json": "TGDK satcount snapshot",
+    "/status/pages_manifest.json": "Pages manifest"
+  },
+  "version": "1.0.0"
+}

@@ -1,0 +1,20 @@
+{
+  "cloudswarm": {
+    "digest": "3849d9184e5a80c2e56ce3f35710d1a2ea45c455174bfbde916728f83d6eff21",
+    "ok": true,
+    "stamp_utc": "2026-04-29T08:11:38.892896+00:00",
+    "type": "steelox_proxy_cloudswarm_once"
+  },
+  "engine": "SteelOx.Cloud.Phase2.Publisher",
+  "live_writes": "local_cloudswarm_or_authorized_tgdk_endpoint",
+  "pages_mode": "gh-pages-branch-root",
+  "satcount": {
+    "connected": 25000,
+    "digest": "e6d188fed67852de15db46308bee1e34e4048c4a1da50f64df8ecd4ae8c52c79",
+    "total": 25000
+  },
+  "scope": "static_public_mirror",
+  "sha256_digest": "a408a37ee813ddb46d0402903bd923cfc4410f5f41d4797d3b1867072889afd6",
+  "stamp_utc": "2026-04-29T08:11:43.978289+00:00",
+  "version": "2.0.0"
+}

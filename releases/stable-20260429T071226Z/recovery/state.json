@@ -1,0 +1,15 @@
+{
+  "carrier_note": "No carrier/satellite control. Recovery state only affects TGDK logical resolver records.",
+  "engine": "SteelOx.Cloud.LogicalNodeRecovery",
+  "scope": "logical_tgdk_recovery_only",
+  "sha256_digest": "2dd62e4681d7a9ddfc1359133a3da1779992aa2007b994698dd568d860181987",
+  "stamp_utc": "2026-04-29T07:11:58.099516+00:00",
+  "state_digest": "0f6b6f90dea5e98983f26beb951607441999c8111799d058c0e8ae9e52acf7bc",
+  "summary": {
+    "quarantined": 0,
+    "secured": 25000,
+    "stale": 0,
+    "total": 25000
+  },
+  "version": "1.0.0"
+}
