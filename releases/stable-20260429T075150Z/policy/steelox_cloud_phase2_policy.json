@@ -1,0 +1,13 @@
+{
+  "phase2_manifest": "status/phase2.json",
+  "policy": "SteelOx Cloud Phase 2 Static Mirror Policy",
+  "rules": [
+    "Public Pages hosts static artifacts only.",
+    "No secrets, tokens, installer scripts, or runtime credentials are published.",
+    "TGDK sat records are logical TGDK-controlled resolver records unless separately documented.",
+    "Carrier and satellite networks are transport only.",
+    "Live writes remain local-first through CloudSwarm or authorized TGDK endpoints.",
+    "Jeopardized logical nodes are quarantined, resealed, rotated, or restored by manifest policy."
+  ],
+  "version": "2.0.0"
+}

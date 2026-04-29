@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SteelOx Cloud</title>
+  <style>
+    body {
+      margin: 0;
+      background: #070b12;
+      color: #e9f2ff;
+      font-family: Arial, sans-serif;
+    }
+    header {
+      padding: 28px;
+      background: linear-gradient(135deg, #111827, #172554);
+      border-bottom: 1px solid #2b3f63;
+    }
+    main {
+      padding: 18px;
+      display: grid;
+      gap: 14px;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    }
+    section {
+      background: #101827;
+      border: 1px solid #26364f;
+      border-radius: 16px;
+      padding: 16px;
+      box-shadow: 0 0 24px rgba(80, 140, 255, 0.10);
+    }
+    .metric {
+      font-size: 40px;
+      font-weight: 800;
+      color: #99f6e4;
+    }
+    a { color: #93c5fd; }
+    code { color: #c4b5fd; word-break: break-all; }
+  </style>
+</head>
+<body>
+<header>
+  <h1>SteelOx Cloud</h1>
+  <p>Static public mirror for SteelOx TGDK CloudSwarm, BFE seals, logical TGDK satcount snapshots, and API route proofs.</p>
+  <p><b>Build UTC:</b> 2026-04-29T04:05:01.798103+00:00</p>
+</header>
+
+<main>
+  <section>
+    <h2>TGDK Logical Sat Count</h2>
+    <div class="metric">25000</div>
+    <p>Total current: <b>25000</b></p>
+    <p><a href="./satcount/tgdk-satcount-summary.json">View satcount summary</a></p>
+  </section>
+
+  <section>
+    <h2>BFE Seal Pack</h2>
+    <div class="metric">8</div>
+    <p>Sealed contract files</p>
+    <p><a href="./bfe/bfe_manifest.json">BFE manifest</a></p>
+    <p><a href="./bfe/BFE_SEAL_CERTIFICATE.txt">BFE certificate</a></p>
+  </section>
+
+  <section>
+    <h2>API Index</h2>
+    <p><a href="./openapi.json">OpenAPI JSON</a></p>
+    <p><a href="./api/routes.json">Route map</a></p>
+    <p><a href="./status/pages_manifest.json">Pages manifest</a></p>
+  </section>
+
+  <section>
+    <h2>CloudSwarm Local Live Routes</h2>
+    <p><code>http://127.0.0.1:8788/health</code></p>
+    <p><code>http://127.0.0.1:8788/proxy/status</code></p>
+    <p><a href="./cloudswarm/current.json">CloudSwarm snapshot</a></p>
+  </section>
+
+  <section>
+    <h2>Scope</h2>
+    <p>This page is a static public mirror. Live writes remain local or authorized through TGDK-owned endpoints.</p>
+  </section>
+</main>
+</body>
+</html>

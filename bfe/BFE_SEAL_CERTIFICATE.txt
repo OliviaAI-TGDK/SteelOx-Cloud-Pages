@@ -1,0 +1,31 @@
+BFE SEAL CERTIFICATE
+====================
+
+BFE License ID: BFE-TGDK-STEELOX-CLOUDSWARM-001
+Policy ID: BFE-TGDK-STEELOX-CLOUDSWARM-001-POLICY
+System: SteelOx Proxy CloudSwarm Resolver
+Owner: TGDK LLC
+Stamp UTC: 2026-04-29T08:11:18.551048+00:00
+
+Contract Count: 8
+Manifest SHA256: db856c955b9a4e0e8c6ddf6c0f3f4e53015a5d8c583b10bd46dd9b9b87470569
+Manifest QQUAp HMAC SHA256: None
+
+Files:
+- legal/bfe/contracts/00_STEELOX_TGDK_CLOUD_POLICY.md :: sha256=77f1117a6d9315a988f39570dc8e84c6278a484d8715feb58e68ca8e813d2bb4 :: qquap=None
+- legal/bfe/contracts/01_BFE_LICENSE_AGREEMENT.md :: sha256=3cf071184c641ed7b9c376f559b7d2c88ccd0d63c00c83e054376e90b7b0ea40 :: qquap=None
+- legal/bfe/contracts/02_MUTUAL_NDA.md :: sha256=da6db08dc0609a7f0303e9e8de0313bf0e67f8e7f5105cadd772d0fc23f78aa8 :: qquap=None
+- legal/bfe/contracts/03_DATA_PROCESSING_AND_SECURITY_ADDENDUM.md :: sha256=84dc07a577c56f128e03c61d6dbce76154714cdaf7ab8c5d8fde947c79e6124a :: qquap=None
+- legal/bfe/contracts/04_CLOUD_SWARM_SERVICE_TERMS.md :: sha256=e960ae6015ae62e87a54d1b7f95446429f46c2d876be257c89e946353dbfe827 :: qquap=None
+- legal/bfe/contracts/05_ACCEPTABLE_USE_POLICY.md :: sha256=7c54e0e74ee7e33c7684e53da7f4f67fe9cca2c07fa21402418cd2f487bc61b1 :: qquap=None
+- legal/bfe/contracts/06_BFE_COUNTERPARTY_ORDER_FORM.md :: sha256=5ce0c841db39d6ea289db8e314df260b70391500fa7d7323a87f115a87238630 :: qquap=None
+- legal/bfe/contracts/07_BFE_SEAL_CERTIFICATE_TEMPLATE.md :: sha256=cb1adf329b8db48f19468eea77c9ffb6e8dccd2ad46dc4a7940c8ef3730b96bf :: qquap=None
+
+
+Seal Statement:
+This certificate records the integrity state of the SteelOx TGDK Cloud BFE contract pack.
+Any modification requires resealing and a new manifest.
+
+Authorized Representative: _______________________________
+Date: _______________________________
+Signature: _______________________________

@@ -1,0 +1,62 @@
+{
+  "bfe_license_id": "BFE-TGDK-STEELOX-CLOUDSWARM-001",
+  "contract_count": 8,
+  "contracts": [
+    {
+      "bytes": 5813,
+      "path": "legal/bfe/contracts/00_STEELOX_TGDK_CLOUD_POLICY.md",
+      "qquap_hmac_sha256": "3ce287c546e918d70959167b4416cc4e1dc0e2b88d253e9315175e6d9bcf099d",
+      "sha256": "77f1117a6d9315a988f39570dc8e84c6278a484d8715feb58e68ca8e813d2bb4"
+    },
+    {
+      "bytes": 3222,
+      "path": "legal/bfe/contracts/01_BFE_LICENSE_AGREEMENT.md",
+      "qquap_hmac_sha256": "fac8828e17f17dab5dbfe61ab61a51d2aa76a1c5e35c68fb7fc5847fe7667a7b",
+      "sha256": "3cf071184c641ed7b9c376f559b7d2c88ccd0d63c00c83e054376e90b7b0ea40"
+    },
+    {
+      "bytes": 1980,
+      "path": "legal/bfe/contracts/02_MUTUAL_NDA.md",
+      "qquap_hmac_sha256": "526ec864323663370d12556462b0ee3d9cd3066a5b62e300e723abe8d3404e95",
+      "sha256": "da6db08dc0609a7f0303e9e8de0313bf0e67f8e7f5105cadd772d0fc23f78aa8"
+    },
+    {
+      "bytes": 2075,
+      "path": "legal/bfe/contracts/03_DATA_PROCESSING_AND_SECURITY_ADDENDUM.md",
+      "qquap_hmac_sha256": "34568be4de133d06ec62c19a75fcc52be2b3f946d407b15e49112ccd1a634177",
+      "sha256": "84dc07a577c56f128e03c61d6dbce76154714cdaf7ab8c5d8fde947c79e6124a"
+    },
+    {
+      "bytes": 1772,
+      "path": "legal/bfe/contracts/04_CLOUD_SWARM_SERVICE_TERMS.md",
+      "qquap_hmac_sha256": "ec80ddeafaea510a6fd7dc4ba4a130f24c86cbbb188dbb8aeb74963529a37a48",
+      "sha256": "e960ae6015ae62e87a54d1b7f95446429f46c2d876be257c89e946353dbfe827"
+    },
+    {
+      "bytes": 924,
+      "path": "legal/bfe/contracts/05_ACCEPTABLE_USE_POLICY.md",
+      "qquap_hmac_sha256": "27bd6cc3f44573d92f110c518b6746ab794cb1f429c85391006de4ac7a4af635",
+      "sha256": "7c54e0e74ee7e33c7684e53da7f4f67fe9cca2c07fa21402418cd2f487bc61b1"
+    },
+    {
+      "bytes": 1128,
+      "path": "legal/bfe/contracts/06_BFE_COUNTERPARTY_ORDER_FORM.md",
+      "qquap_hmac_sha256": "25e7f8b91b0698cdd819aa73c079d5aa9821b64be3d9c322b0cdddb5348eccc7",
+      "sha256": "5ce0c841db39d6ea289db8e314df260b70391500fa7d7323a87f115a87238630"
+    },
+    {
+      "bytes": 868,
+      "path": "legal/bfe/contracts/07_BFE_SEAL_CERTIFICATE_TEMPLATE.md",
+      "qquap_hmac_sha256": "da33a4e40e9a4c9d254e6ef7509c460e8314209fdee7bb295d5d44e95b67a7c5",
+      "sha256": "cb1adf329b8db48f19468eea77c9ffb6e8dccd2ad46dc4a7940c8ef3730b96bf"
+    }
+  ],
+  "engine": "TGDK.BFE.ContractSealer",
+  "manifest_qquap_hmac_sha256": "997381faff584d34e0dfebc10976a1ff09cd0749f7818be732abfdfbd51117c6",
+  "manifest_sha256": "a07230eea318116b8a84a7f8ac61045bb58c84647b8a8e88f2b98ad561ac09b0",
+  "owner": "TGDK LLC",
+  "policy_id": "BFE-TGDK-STEELOX-CLOUDSWARM-001-POLICY",
+  "stamp_utc": "2026-04-29T04:05:11.939390+00:00",
+  "system_id": "SteelOx Proxy CloudSwarm Resolver",
+  "version": "1.0.0"
+}

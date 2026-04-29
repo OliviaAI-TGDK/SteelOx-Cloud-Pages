@@ -1,0 +1,15 @@
+{
+  "audit_ok": true,
+  "engine": "SteelOx.Cloud.Assembly",
+  "ok": true,
+  "recovery": {
+    "quarantined": 0,
+    "secured": 25000,
+    "stale": 0,
+    "total": 25000
+  },
+  "services_ok": true,
+  "sha256_digest": "c6a1427a576505ae31ed520d6badef381dc471436ce1564a57c1c2d5cac72ad6",
+  "stamp_utc": "2026-04-29T05:34:18.542743+00:00",
+  "version": "1.0.0"
+}

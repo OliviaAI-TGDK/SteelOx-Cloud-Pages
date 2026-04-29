@@ -1,0 +1,475 @@
+{
+  "analytics": {
+    "analytics": {
+      "known_satellite_count": 0,
+      "resolver_health_pct": 0.0,
+      "rolling_avg_connected": 0,
+      "rolling_delta_sum": 0,
+      "rolling_max_connected": 0,
+      "rolling_min_connected": 0,
+      "rolling_volatility": 0.0,
+      "unstable_satellites": [],
+      "window_samples": 24
+    },
+    "analytics_digest": "13416a992c2daf4fe202bb92f7f178e1c7f2a9208d500e227f49eda3d5f96ebf",
+    "analytics_qquap_hmac_sha256": "3cad8937fdf05e48b5484e843234974899b0de47eac471e1fc3e46d85bf9de17",
+    "analytics_uplink": {
+      "enabled": true,
+      "ok": true,
+      "response": "{\n  \"accepted_by\": \"TGDK local bridge\",\n  \"authority\": \"OliviaAI\",\n  \"body_digest\": \"d03f2f9882227881c405faf939d4eb25a89ff32a0687b1ea1209fe8af6746c85\",\n  \"body_qquap_hmac_sha256\": \"3cdf18e83f941dda0608ed7c1c06cdadea1a8811f930d1b7352e6ed99716026b\",\n  \"forward_target\": \"https://api.tgdk.io/api/v1/control/quomosat/analytics\",\n  \"note\": \"local accept; configure cloud forwarder if remote relay is required\",\n  \"ok\": true,\n  \"path\": \"/quomosat/analytics\",\n  \"session_device_id\": \"android-termux\",\n  \"session_sub\": \"steelox-user\",\n  \"stamp_utc\": \"2026-04-28T23:40:31.387636+00:00\",\n  \"transport\": \"tmobile-tsatellite\"\n}",
+      "status_code": 200
+    },
+    "connected_count": 0,
+    "connected_satellites": [],
+    "delta_connected": 0,
+    "digest": null,
+    "disconnected_or_unknown_satellites": [],
+    "endpoint_error_count": 0,
+    "endpoint_success_count": 0,
+    "error": "Resolver timeout after 20.0s",
+    "gained_satellites": [],
+    "lost_satellites": [],
+    "ok": false,
+    "raw_count": 0,
+    "seal_mode": null,
+    "stale_count": 0,
+    "stamp_utc": "2026-04-28T23:40:31.363470+00:00",
+    "unique_count": 0
+  },
+  "digest": "a5d3db5d3b2d752f32bff5b0bbb9321fa8e4e5a2e5f721ffeaac227a6f4ca454",
+  "ok": true,
+  "resolver": {
+    "digest": "e9f7ca3670e03d1f14936178b1de3d83a8953a81930487f35e6f0441da3041b4",
+    "method": "POST",
+    "nodes": [
+      {
+        "digest": "4f2b67850754d3c4290b6ee087fdc05335cc9ef5131268d5d34d26f6b8da2b3c",
+        "error": "",
+        "failures": 0,
+        "last_checked": 1777435495.7166593,
+        "last_ok": 1777435495.7166593,
+        "latency_ms": 20.59,
+        "node": "http://127.0.0.1:8787",
+        "ok": true,
+        "score": 159.941,
+        "successes": 1
+      },
+      {
+        "digest": "",
+        "error": "TimeoutError: The read operation timed out",
+        "failures": 1,
+        "last_checked": 1777435500.329611,
+        "last_ok": 0.0,
+        "latency_ms": 4632.595,
+        "node": "https://api.tgdk.io",
+        "ok": false,
+        "score": -184.0,
+        "successes": 0
+      }
+    ],
+    "ok": true,
+    "selected_node": "http://127.0.0.1:8787",
+    "selected_url": "http://127.0.0.1:8787/proxy/uplink",
+    "service": "steelox.proxy.uplink",
+    "stamp_utc": "2026-04-29T04:05:00.330913+00:00",
+    "transport": {
+      "hint": "tmobile-tsatellite",
+      "low_bandwidth": true,
+      "mode": "carrier-auto"
+    }
+  },
+  "satcount": {
+    "connected_satellites": [
+      {
+        "confidence": 0.95,
+        "sat_id": "TGDK-QSN-ANALYTICS-007",
+        "source": "/sdcard/Download/steelox/tgdk-satcount-summary.json",
+        "status": "connected",
+        "timestamp": 1777435490.188585
+      },
+      {
+        "confidence": 0.95,
+        "sat_id": "TGDK-QSN-EDGE-001",
+        "source": "/sdcard/Download/steelox/tgdk-satcount-summary.json",
+        "status": "connected",
+        "timestamp": 1777435490.188585
+      },
+      {
+        "confidence": 0.95,
+        "sat_id": "TGDK-QSN-EDGE-011",
+        "source": "/sdcard/Download/steelox/tgdk-satcount-summary.json",
+        "status": "connected",
+        "timestamp": 1777435490.188585
+      },
+      {
+        "confidence": 0.95,
+        "sat_id": "TGDK-QSN-EDGE-012",
+        "source": "/sdcard/Download/steelox/tgdk-satcount-summary.json",
+        "status": "connected",
+        "timestamp": 1777435490.188585
+      },
+      {
+        "confidence": 0.95,
+        "sat_id": "TGDK-QSN-MESH-009",
+        "source": "/sdcard/Download/steelox/tgdk-satcount-summary.json",
+        "status": "connected",
+        "timestamp": 1777435490.188585
+      },
+      {
+        "confidence": 0.95,
+        "sat_id": "TGDK-QSN-MESH-010",
+        "source": "/sdcard/Download/steelox/tgdk-satcount-summary.json",
+        "status": "connected",
+        "timestamp": 1777435490.188585
+      },
+      {
+        "confidence": 0.95,
+        "sat_id": "TGDK-QSN-NODE-000013",
+        "source": "/sdcard/Download/steelox/tgdk-satcount-summary.json",
+        "status": "connected",
+        "timestamp": 1777435490.188585
+      },
+      {
+        "confidence": 0.95,
+        "sat_id": "TGDK-QSN-NODE-000014",
+        "source": "/sdcard/Download/steelox/tgdk-satcount-summary.json",
+        "status": "connected",
+        "timestamp": 1777435490.188585
+      },
+      {
+        "confidence": 0.95,
+        "sat_id": "TGDK-QSN-NODE-000015",
+        "source": "/sdcard/Download/steelox/tgdk-satcount-summary.json",
+        "status": "connected",
+        "timestamp": 1777435490.188585
+      },
+      {
+        "confidence": 0.95,
+        "sat_id": "TGDK-QSN-NODE-000016",
+        "source": "/sdcard/Download/steelox/tgdk-satcount-summary.json",
+        "status": "connected",
+        "timestamp": 1777435490.188585
+      },
+      {
+        "confidence": 0.92,
+        "sat_id": "TGDK-QSN-NODE-000017",
+        "source": "/data/data/com.termux/files/home/SteelOx/public/swarm/manifold.json",
+        "status": "healthy",
+        "timestamp": 1777435210.67872
+      },
+      {
+        "confidence": 0.92,
+        "sat_id": "TGDK-QSN-NODE-000018",
+        "source": "/data/data/com.termux/files/home/SteelOx/public/swarm/manifold.json",
+        "status": "healthy",
+        "timestamp": 1777435210.67872
+      },
+      {
+        "confidence": 0.92,
+        "sat_id": "TGDK-QSN-NODE-000019",
+        "source": "/data/data/com.termux/files/home/SteelOx/public/swarm/manifold.json",
+        "status": "healthy",
+        "timestamp": 1777435210.67872
+      },
+      {
+        "confidence": 0.92,
+        "sat_id": "TGDK-QSN-NODE-000020",
+        "source": "/data/data/com.termux/files/home/SteelOx/public/swarm/manifold.json",
+        "status": "healthy",
+        "timestamp": 1777435210.67872
+      },
+      {
+        "confidence": 0.92,
+        "sat_id": "TGDK-QSN-NODE-000021",
+        "source": "/data/data/com.termux/files/home/SteelOx/public/swarm/manifold.json",
+        "status": "healthy",
+        "timestamp": 1777435210.67872
+      },
+      {
+        "confidence": 0.92,
+        "sat_id": "TGDK-QSN-NODE-000022",
+        "source": "/data/data/com.termux/files/home/SteelOx/public/swarm/manifold.json",
+        "status": "healthy",
+        "timestamp": 1777435210.67872
+      },
+      {
+        "confidence": 0.92,
+        "sat_id": "TGDK-QSN-NODE-000023",
+        "source": "/data/data/com.termux/files/home/SteelOx/public/swarm/manifold.json",
+        "status": "healthy",
+        "timestamp": 1777435210.67872
+      },
+      {
+        "confidence": 0.92,
+        "sat_id": "TGDK-QSN-NODE-000024",
+        "source": "/data/data/com.termux/files/home/SteelOx/public/swarm/manifold.json",
+        "status": "healthy",
+        "timestamp": 1777435210.67872
+      },
+      {
+        "confidence": 0.95,
+        "sat_id": "TGDK-QSN-NODE-024985",
+        "source": "/sdcard/Download/steelox/tgdk-satcount-summary.json",
+        "status": "connected",
+        "timestamp": 1777435490.188585
+      },
+      {
+        "confidence": 0.95,
+        "sat_id": "TGDK-QSN-NODE-024986",
+        "source": "/sdcard/Download/steelox/tgdk-satcount-summary.json",
+        "status": "connected",
+        "timestamp": 1777435490.188585
+      },
+      {
+        "confidence": 0.95,
+        "sat_id": "TGDK-QSN-NODE-024987",
+        "source": "/sdcard/Download/steelox/tgdk-satcount-summary.json",
+        "status": "connected",
+        "timestamp": 1777435490.188585
+      },
+      {
+        "confidence": 0.95,
+        "sat_id": "TGDK-QSN-NODE-024988",
+        "source": "/sdcard/Download/steelox/tgdk-satcount-summary.json",
+        "status": "connected",
+        "timestamp": 1777435490.188585
+      },
+      {
+        "confidence": 0.95,
+        "sat_id": "TGDK-QSN-NODE-024989",
+        "source": "/sdcard/Download/steelox/tgdk-satcount-summary.json",
+        "status": "connected",
+        "timestamp": 1777435490.188585
+      },
+      {
+        "confidence": 0.95,
+        "sat_id": "TGDK-QSN-NODE-024990",
+        "source": "/sdcard/Download/steelox/tgdk-satcount-summary.json",
+        "status": "connected",
+        "timestamp": 1777435490.188585
+      },
+      {
+        "confidence": 0.95,
+        "sat_id": "TGDK-QSN-NODE-024991",
+        "source": "/sdcard/Download/steelox/tgdk-satcount-summary.json",
+        "status": "connected",
+        "timestamp": 1777435490.188585
+      },
+      {
+        "confidence": 0.95,
+        "sat_id": "TGDK-QSN-NODE-024992",
+        "source": "/sdcard/Download/steelox/tgdk-satcount-summary.json",
+        "status": "connected",
+        "timestamp": 1777435490.188585
+      },
+      {
+        "confidence": 0.95,
+        "sat_id": "TGDK-QSN-NODE-024993",
+        "source": "/sdcard/Download/steelox/tgdk-satcount-summary.json",
+        "status": "connected",
+        "timestamp": 1777435490.188585
+      },
+      {
+        "confidence": 0.95,
+        "sat_id": "TGDK-QSN-NODE-024994",
+        "source": "/sdcard/Download/steelox/tgdk-satcount-summary.json",
+        "status": "connected",
+        "timestamp": 1777435490.188585
+      },
+      {
+        "confidence": 0.95,
+        "sat_id": "TGDK-QSN-NODE-024995",
+        "source": "/sdcard/Download/steelox/tgdk-satcount-summary.json",
+        "status": "connected",
+        "timestamp": 1777435490.188585
+      },
+      {
+        "confidence": 0.95,
+        "sat_id": "TGDK-QSN-NODE-024996",
+        "source": "/sdcard/Download/steelox/tgdk-satcount-summary.json",
+        "status": "connected",
+        "timestamp": 1777435490.188585
+      },
+      {
+        "confidence": 0.95,
+        "sat_id": "TGDK-QSN-NODE-024997",
+        "source": "/sdcard/Download/steelox/tgdk-satcount-summary.json",
+        "status": "connected",
+        "timestamp": 1777435490.188585
+      },
+      {
+        "confidence": 0.95,
+        "sat_id": "TGDK-QSN-NODE-024998",
+        "source": "/sdcard/Download/steelox/tgdk-satcount-summary.json",
+        "status": "connected",
+        "timestamp": 1777435490.188585
+      },
+      {
+        "confidence": 0.95,
+        "sat_id": "TGDK-QSN-NODE-024999",
+        "source": "/sdcard/Download/steelox/tgdk-satcount-summary.json",
+        "status": "connected",
+        "timestamp": 1777435490.188585
+      },
+      {
+        "confidence": 0.95,
+        "sat_id": "TGDK-QSN-NODE-025000",
+        "source": "/sdcard/Download/steelox/tgdk-satcount-summary.json",
+        "status": "connected",
+        "timestamp": 1777435490.188585
+      },
+      {
+        "confidence": 0.95,
+        "sat_id": "TGDK-QSN-OLIVIA-002",
+        "source": "/sdcard/Download/steelox/tgdk-satcount-summary.json",
+        "status": "connected",
+        "timestamp": 1777435490.188585
+      },
+      {
+        "confidence": 0.95,
+        "sat_id": "TGDK-QSN-PROXY-006",
+        "source": "/sdcard/Download/steelox/tgdk-satcount-summary.json",
+        "status": "connected",
+        "timestamp": 1777435490.188585
+      },
+      {
+        "confidence": 0.95,
+        "sat_id": "TGDK-QSN-QUOMO-005",
+        "source": "/sdcard/Download/steelox/tgdk-satcount-summary.json",
+        "status": "connected",
+        "timestamp": 1777435490.188585
+      },
+      {
+        "confidence": 0.95,
+        "sat_id": "TGDK-QSN-STEEL-003",
+        "source": "/sdcard/Download/steelox/tgdk-satcount-summary.json",
+        "status": "connected",
+        "timestamp": 1777435490.188585
+      },
+      {
+        "confidence": 0.95,
+        "sat_id": "TGDK-QSN-SWARM-004",
+        "source": "/sdcard/Download/steelox/tgdk-satcount-summary.json",
+        "status": "connected",
+        "timestamp": 1777435490.188585
+      },
+      {
+        "confidence": 0.95,
+        "sat_id": "TGDK-QSN-UPLINK-008",
+        "source": "/sdcard/Download/steelox/tgdk-satcount-summary.json",
+        "status": "connected",
+        "timestamp": 1777435490.188585
+      },
+      {
+        "confidence": 0.82,
+        "sat_id": "heartbeat",
+        "source": "/data/data/com.termux/files/home/SteelOx/logs/tgdk_sat_inventory_heartbeat.log",
+        "status": "[2026-04-29t04:04:50.188585+00:00] tgdk all-sat heartbeat on :: ",
+        "timestamp": 1777435491.5421324
+      }
+    ],
+    "current_connected_satellite_count": 41,
+    "current_disconnected_or_unknown_count": 0,
+    "current_unique_satellite_count": 41,
+    "declared_counts_observed": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "disconnected_or_unknown_satellites": [],
+    "engine": "QuomoSatNet.SatCountResolver",
+    "fresh_seconds": 900,
+    "output_json": "/sdcard/Download/steelox/quomosatnet-satcount-20260429-000455.json",
+    "output_txt": "/sdcard/Download/steelox/quomosatnet-satcount-20260429-000455.txt",
+    "qquap_hmac_sha256": null,
+    "raw_record_count": 28793,
+    "seal_mode": "SHA256-DIGEST-ONLY",
+    "sha256_digest": "e811f6c8b6552a3ac615fec45f829636c17b68b6b275b40085359abb692861f0",
+    "sources": {
+      "endpoint_error_count": 0,
+      "endpoint_errors": [],
+      "endpoint_sources": [],
+      "endpoint_success_count": 0,
+      "scanned_file_count": 40,
+      "scanned_files": [
+        "/sdcard/Download/steelox/tgdk-satcount-summary.json",
+        "/data/data/com.termux/files/home/SteelOx/logs/tgdk_sat_inventory_heartbeat.log",
+        "/sdcard/Download/steelox/phase3/phase3-history.jsonl",
+        "/sdcard/Download/steelox/phase3/phase3-current.json",
+        "/data/data/com.termux/files/home/SteelOx/public/status/phase3.json",
+        "/data/data/com.termux/files/home/SteelOx/public/swarm/manifold.json",
+        "/sdcard/Download/steelox/steelox-cloudswarm/samples.jsonl",
+        "/data/data/com.termux/files/home/SteelOx/public/cloudswarm/current.json",
+        "/sdcard/Download/steelox/steelox-cloudswarm/current.json",
+        "/data/data/com.termux/files/home/SteelOx/public/satcount/tgdk-satcount-summary.json",
+        "/sdcard/Download/steelox/quomosatnet-satcount-20260428-224947.txt",
+        "/sdcard/Download/steelox/quomosatnet-satcount-20260428-224947.json",
+        "/sdcard/Download/steelox/quomosatnet-satcount-20260428-224748.txt",
+        "/sdcard/Download/steelox/quomosatnet-satcount-20260428-224748.json",
+        "/sdcard/Download/steelox/quomosatnet-satcount-20260428-224520.txt",
+        "/sdcard/Download/steelox/quomosatnet-satcount-20260428-224520.json",
+        "/sdcard/Download/steelox/quomosatnet-satcount-20260428-224339.txt",
+        "/sdcard/Download/steelox/quomosatnet-satcount-20260428-224339.json",
+        "/sdcard/Download/steelox/quomosatnet-satcount-20260428-224239.txt",
+        "/sdcard/Download/steelox/quomosatnet-satcount-20260428-224239.json",
+        "/sdcard/Download/steelox/quomosatnet-satcount-20260428-222255.txt",
+        "/sdcard/Download/steelox/quomosatnet-satcount-20260428-222255.json",
+        "/data/data/com.termux/files/home/QuomoSatNet/inventory/tgdk_satellites.json",
+        "/data/data/com.termux/files/home/SteelOx/public/satcount/tgdk-satcount-raw.json",
+        "/sdcard/Download/steelox/tgdk-satcount-raw.json",
+        "/data/data/com.termux/files/home/SteelOx/logs/tgdk_sat_heartbeat.log",
+        "/sdcard/Download/steelox/tgdk-satcount-command-output.txt",
+        "/sdcard/Download/steelox/quomosatnet-satcount-20260428-195320.txt",
+        "/sdcard/Download/steelox/quomosatnet-satcount-20260428-195320.json",
+        "/sdcard/Download/steelox/quomosatnet-satcount-20260428-195200.txt",
+        "/sdcard/Download/steelox/quomosatnet-satcount-20260428-195200.json",
+        "/sdcard/Download/steelox/quomosatnet-satcount-20260428-195133.txt",
+        "/sdcard/Download/steelox/quomosatnet-satcount-20260428-195133.json",
+        "/data/data/com.termux/files/home/SteelOx/public/cloudswarm/quomosatnet-realtime-current.json",
+        "/sdcard/Download/steelox/quomosatnet-realtime/current.json",
+        "/sdcard/Download/steelox/quomosatnet-realtime/samples.jsonl",
+        "/sdcard/Download/steelox/quomosatnet-satcount-20260428-192805.txt",
+        "/sdcard/Download/steelox/quomosatnet-satcount-20260428-192805.json",
+        "/sdcard/Download/steelox/quomosatnet-satcount-20260428-192427.txt",
+        "/sdcard/Download/steelox/quomosatnet-satcount-20260428-192427.json"
+      ]
+    },
+    "stale_record_count": 27617,
+    "stamp_utc": "2026-04-29T04:04:55.634966+00:00",
+    "uplink": {
+      "enabled": false,
+      "ok": false,
+      "status": "not_configured"
+    },
+    "version": "1.0.0-optimized"
+  },
+  "spool": {
+    "failed": 17,
+    "queued": 0,
+    "sent": 1
+  },
+  "stamp_utc": "2026-04-29T04:04:55.695665+00:00",
+  "type": "steelox_proxy_cloudswarm_once"
+}

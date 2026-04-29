@@ -1,0 +1,15 @@
+{
+  "manifold": "swarm/manifold.json",
+  "phase3_manifest": "status/phase3.json",
+  "policy": "SteelOx Cloud Phase 3 Guardian Policy",
+  "rules": [
+    "Monitor local OliviaAI bridge and CloudSwarm resolver.",
+    "Refresh BFE, satcount, and CloudSwarm snapshots.",
+    "Publish static Pages mirror from gh-pages branch root.",
+    "Detect stale logical TGDK nodes from inventory/live heartbeat.",
+    "Do not publish secrets, tokens, installer scripts, or runtime credentials.",
+    "Do not command, probe, or claim third-party satellite or carrier control.",
+    "Quarantine means logical exclusion from TGDK resolver selection only."
+  ],
+  "version": "3.0.0"
+}

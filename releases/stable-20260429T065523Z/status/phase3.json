@@ -1,0 +1,266 @@
+{
+  "build": {
+    "ok": true,
+    "output": "=== SteelOx Pages built ===\npublic: /data/data/com.termux/files/home/SteelOx/public\nfiles: 207\nsha256: dc460b5e5e68a5aa5c6ce8b86f57066f1f5ec27493ea52ef8b0e88308a6ecbe1"
+  },
+  "engine": "SteelOx.Cloud.Phase3.Guardian",
+  "local": {
+    "checks": {
+      "cloudswarm": {
+        "bytes_head": 1115,
+        "error": "",
+        "latency_ms": 2.923,
+        "ok": true,
+        "status": 200
+      },
+      "olivia_bridge": {
+        "bytes_head": 1206,
+        "error": "",
+        "latency_ms": 12.019,
+        "ok": true,
+        "status": 200
+      }
+    },
+    "recovery": {
+      "attempted": false,
+      "offline": [],
+      "ok": true,
+      "output": ""
+    }
+  },
+  "logical_nodes": {
+    "healthy_count": 25000,
+    "healthy_preview": [
+      {
+        "active": true,
+        "age_seconds": 13.467,
+        "last_heartbeat": "2026-04-29T06:55:08.432526+00:00",
+        "role": "edge-uplink",
+        "sat_id": "TGDK-QSN-EDGE-001",
+        "state": "healthy"
+      },
+      {
+        "active": true,
+        "age_seconds": 13.467,
+        "last_heartbeat": "2026-04-29T06:55:08.432526+00:00",
+        "role": "olivia-session-authority",
+        "sat_id": "TGDK-QSN-OLIVIA-002",
+        "state": "healthy"
+      },
+      {
+        "active": true,
+        "age_seconds": 13.467,
+        "last_heartbeat": "2026-04-29T06:55:08.432526+00:00",
+        "role": "steelox-proxy-resolver",
+        "sat_id": "TGDK-QSN-STEEL-003",
+        "state": "healthy"
+      },
+      {
+        "active": true,
+        "age_seconds": 13.467,
+        "last_heartbeat": "2026-04-29T06:55:08.432526+00:00",
+        "role": "cloudswarm-routing",
+        "sat_id": "TGDK-QSN-SWARM-004",
+        "state": "healthy"
+      },
+      {
+        "active": true,
+        "age_seconds": 13.467,
+        "last_heartbeat": "2026-04-29T06:55:08.432526+00:00",
+        "role": "quomo-authority",
+        "sat_id": "TGDK-QSN-QUOMO-005",
+        "state": "healthy"
+      },
+      {
+        "active": true,
+        "age_seconds": 13.467,
+        "last_heartbeat": "2026-04-29T06:55:08.432526+00:00",
+        "role": "proxy-uplink",
+        "sat_id": "TGDK-QSN-PROXY-006",
+        "state": "healthy"
+      },
+      {
+        "active": true,
+        "age_seconds": 13.467,
+        "last_heartbeat": "2026-04-29T06:55:08.432526+00:00",
+        "role": "realtime-analytics",
+        "sat_id": "TGDK-QSN-ANALYTICS-007",
+        "state": "healthy"
+      },
+      {
+        "active": true,
+        "age_seconds": 13.467,
+        "last_heartbeat": "2026-04-29T06:55:08.432526+00:00",
+        "role": "optimized-uplink",
+        "sat_id": "TGDK-QSN-UPLINK-008",
+        "state": "healthy"
+      },
+      {
+        "active": true,
+        "age_seconds": 13.467,
+        "last_heartbeat": "2026-04-29T06:55:08.432526+00:00",
+        "role": "mesh-relay",
+        "sat_id": "TGDK-QSN-MESH-009",
+        "state": "healthy"
+      },
+      {
+        "active": true,
+        "age_seconds": 13.467,
+        "last_heartbeat": "2026-04-29T06:55:08.432526+00:00",
+        "role": "mesh-relay",
+        "sat_id": "TGDK-QSN-MESH-010",
+        "state": "healthy"
+      },
+      {
+        "active": true,
+        "age_seconds": 13.467,
+        "last_heartbeat": "2026-04-29T06:55:08.432526+00:00",
+        "role": "edge-uplink",
+        "sat_id": "TGDK-QSN-EDGE-011",
+        "state": "healthy"
+      },
+      {
+        "active": true,
+        "age_seconds": 13.467,
+        "last_heartbeat": "2026-04-29T06:55:08.432526+00:00",
+        "role": "edge-uplink",
+        "sat_id": "TGDK-QSN-EDGE-012",
+        "state": "healthy"
+      },
+      {
+        "active": true,
+        "age_seconds": 13.467,
+        "last_heartbeat": "2026-04-29T06:55:08.432526+00:00",
+        "role": "expanded-tgdk-node",
+        "sat_id": "TGDK-QSN-NODE-000013",
+        "state": "healthy"
+      },
+      {
+        "active": true,
+        "age_seconds": 13.467,
+        "last_heartbeat": "2026-04-29T06:55:08.432526+00:00",
+        "role": "expanded-tgdk-node",
+        "sat_id": "TGDK-QSN-NODE-000014",
+        "state": "healthy"
+      },
+      {
+        "active": true,
+        "age_seconds": 13.467,
+        "last_heartbeat": "2026-04-29T06:55:08.432526+00:00",
+        "role": "expanded-tgdk-node",
+        "sat_id": "TGDK-QSN-NODE-000015",
+        "state": "healthy"
+      },
+      {
+        "active": true,
+        "age_seconds": 13.467,
+        "last_heartbeat": "2026-04-29T06:55:08.432526+00:00",
+        "role": "expanded-tgdk-node",
+        "sat_id": "TGDK-QSN-NODE-000016",
+        "state": "healthy"
+      },
+      {
+        "active": true,
+        "age_seconds": 13.467,
+        "last_heartbeat": "2026-04-29T06:55:08.432526+00:00",
+        "role": "expanded-tgdk-node",
+        "sat_id": "TGDK-QSN-NODE-000017",
+        "state": "healthy"
+      },
+      {
+        "active": true,
+        "age_seconds": 13.467,
+        "last_heartbeat": "2026-04-29T06:55:08.432526+00:00",
+        "role": "expanded-tgdk-node",
+        "sat_id": "TGDK-QSN-NODE-000018",
+        "state": "healthy"
+      },
+      {
+        "active": true,
+        "age_seconds": 13.467,
+        "last_heartbeat": "2026-04-29T06:55:08.432526+00:00",
+        "role": "expanded-tgdk-node",
+        "sat_id": "TGDK-QSN-NODE-000019",
+        "state": "healthy"
+      },
+      {
+        "active": true,
+        "age_seconds": 13.467,
+        "last_heartbeat": "2026-04-29T06:55:08.432526+00:00",
+        "role": "expanded-tgdk-node",
+        "sat_id": "TGDK-QSN-NODE-000020",
+        "state": "healthy"
+      },
+      {
+        "active": true,
+        "age_seconds": 13.467,
+        "last_heartbeat": "2026-04-29T06:55:08.432526+00:00",
+        "role": "expanded-tgdk-node",
+        "sat_id": "TGDK-QSN-NODE-000021",
+        "state": "healthy"
+      },
+      {
+        "active": true,
+        "age_seconds": 13.467,
+        "last_heartbeat": "2026-04-29T06:55:08.432526+00:00",
+        "role": "expanded-tgdk-node",
+        "sat_id": "TGDK-QSN-NODE-000022",
+        "state": "healthy"
+      },
+      {
+        "active": true,
+        "age_seconds": 13.467,
+        "last_heartbeat": "2026-04-29T06:55:08.432526+00:00",
+        "role": "expanded-tgdk-node",
+        "sat_id": "TGDK-QSN-NODE-000023",
+        "state": "healthy"
+      },
+      {
+        "active": true,
+        "age_seconds": 13.467,
+        "last_heartbeat": "2026-04-29T06:55:08.432526+00:00",
+        "role": "expanded-tgdk-node",
+        "sat_id": "TGDK-QSN-NODE-000024",
+        "state": "healthy"
+      }
+    ],
+    "inactive_count": 0,
+    "inactive_preview": [],
+    "inventory_total": 25000,
+    "stale_count": 0,
+    "stale_preview": []
+  },
+  "mode": "once",
+  "pages_url": "https://oliviaai-tgdk.github.io/SteelOx-Cloud-Pages/",
+  "refresh": {
+    "ok": true,
+    "results": [
+      {
+        "cmd": [
+          "steelox-bfe-seal"
+        ],
+        "ok": true,
+        "tail": "=== BFE CONTRACT SEAL COMPLETE ===\nManifest: /data/data/com.termux/files/home/SteelOx/legal/bfe/seals/bfe_manifest.json\nCertificate: /data/data/com.termux/files/home/SteelOx/legal/bfe/seals/BFE_SEAL_CERTIFICATE.txt\nBundle: /sdcard/Download/steelox/bfe-legal/BFE-TGDK-STEELOX-CLOUDSWARM-001-contract-pack.tar.gz\nBundle seal: /sdcard/Download/steelox/bfe-legal/BFE-TGDK-STEELOX-CLOUDSWARM-001-bundle-seal.json\nManifest SHA256: 3fc30f240fef5ac21f70684b3dbf851ae16ffa5d8c2ebd6e282565e940e43c07\nManifest QQUAp: 4ae39f37f7571fbc7e97d87bcf758e8774796809ddaa667235c2b4ef1f930385\nBundle SHA256: cd0bd22cde1e0a11690f0ea55acdb8c18c02d13938bd3de610e81d5b00c3a461\nBundle QQUAp: 67043318f9e02e595fccf1dc98794eb31944311e8a0b4955b4b102f26c771e60"
+      },
+      {
+        "cmd": [
+          "tgdk-satcount-compact",
+          "16"
+        ],
+        "ok": true,
+        "tail": "=== TGDK COMPACT SAT COUNT ===\nTGDK connected: 25000\nTGDK disconnected/unknown: 0\nTGDK total current: 25000\nInventory total: 25000\nDigest: f97e1d7a50bc0fc86d04d1c76a86d02ee40552f108eb11e4ae7d27b78217a5eb\n\n+ TGDK-QSN-EDGE-001 :: edge-uplink\n+ TGDK-QSN-OLIVIA-002 :: olivia-session-authority\n+ TGDK-QSN-STEEL-003 :: steelox-proxy-resolver\n+ TGDK-QSN-SWARM-004 :: cloudswarm-routing\n+ TGDK-QSN-QUOMO-005 :: quomo-authority\n+ TGDK-QSN-PROXY-006 :: proxy-uplink\n+ TGDK-QSN-ANALYTICS-007 :: realtime-analytics\n+ TGDK-QSN-UPLINK-008 :: optimized-uplink\n+ TGDK-QSN-MESH-009 :: mesh-relay\n+ TGDK-QSN-MESH-010 :: mesh-relay\n+ TGDK-QSN-EDGE-011 :: edge-uplink\n+ TGDK-QSN-EDGE-012 :: edge-uplink\n+ TGDK-QSN-NODE-000013 :: expanded-tgdk-node\n+ TGDK-QSN-NODE-000014 :: expanded-tgdk-node\n+ TGDK-QSN-NODE-000015 :: expanded-tgdk-node\n+ TGDK-QSN-NODE-000016 :: expanded-tgdk-node\n...\n+ TGDK-QSN-NODE-024985 :: expanded-tgdk-node\n+ TGDK-QSN-NODE-024986 :: expanded-tgdk-node\n+ TGDK-QSN-NODE-024987 :: expanded-tgdk-node\n+ TGDK-QSN-NODE-024988 :: expanded-tgdk-node\n+ TGDK-QSN-NODE-024989 :: expanded-tgdk-node\n+ TGDK-QSN-NODE-024990 :: expanded-tgdk-node\n+ TGDK-QSN-NODE-024991 :: expanded-tgdk-node\n+ TGDK-QSN-NODE-024992 :: expanded-tgdk-node\n+ TGDK-QSN-NODE-024993 :: expanded-tgdk-node\n+ TGDK-QSN-NODE-024994 :: expanded-tgdk-node\n+ TGDK-QSN-NODE-024995 :: expanded-tgdk-node\n+ TGDK-QSN-NODE-024996 :: expanded-tgdk-node\n+ TGDK-QSN-NODE-024997 :: expanded-tgdk-node\n+ TGDK-QSN-NODE-024998 :: expanded-tgdk-node\n+ TGDK-QSN-NODE-024999 :: expanded-tgdk-node\n+ TGDK-QSN-NODE-025000 :: expanded-tgdk-node"
+      },
+      {
+        "cmd": [
+          "sx-cloudswarm",
+          "once"
+        ],
+        "ok": true,
+        "tail": "],\n    \"ok\": false,\n    \"raw_count\": 0,\n    \"seal_mode\": null,\n    \"stale_count\": 0,\n    \"stamp_utc\": \"2026-04-28T23:40:31.363470+00:00\",\n    \"unique_count\": 0\n  },\n  \"digest\": \"975227cee402967b05d944e16e0d1eeef46e3b6bdb993ed0e2631c89cf12c5ee\",\n  \"ok\": true,\n  \"qquap_hmac_sha256\": \"7ed4ff6b90e9a0ca81919356985cb6bf4c03eead88c1a43c5946ffc44a27ddb5\",\n  \"resolver\": {\n    \"digest\": \"edd23c22fc3335082539cd907c917d54a1ac65da4e86be31d1a50b65f33171c9\",\n    \"method\": \"POST\",\n    \"nodes\": [\n      {\n        \"digest\": \"089325b20095f4ce7b95423a442cc2252a84ccd2950dd2ce44bf9e9745164860\",\n        \"error\": \"\",\n        \"failures\": 0,\n        \"last_checked\": 1777445716.264757,\n        \"last_ok\": 1777445716.264757,\n        \"latency_ms\": 22.066,\n        \"node\": \"http://127.0.0.1:8787\",\n        \"ok\": true,\n        \"score\": 159.7934,\n        \"successes\": 1\n      },\n      {\n        \"digest\": \"\",\n        \"error\": \"TimeoutError: The read operation timed out\",\n        \"failures\": 1,\n        \"last_checked\": 1777445720.9027243,\n        \"last_ok\": 0.0,\n        \"latency_ms\": 4659.165,\n        \"node\": \"https://api.tgdk.io\",\n        \"ok\": false,\n        \"score\": -184.0,\n        \"successes\": 0\n      }\n    ],\n    \"ok\": true,\n    \"qquap_hmac_sha256\": \"0092398926a10a9bcd71c151a9da03c882df5d1c74769ddf79a3bc3516a16126\",\n    \"selected_node\": \"http://127.0.0.1:8787\",\n    \"selected_url\": \"http://127.0.0.1:8787/proxy/uplink\",\n    \"service\": \"steelox.proxy.uplink\",\n    \"stamp_utc\": \"2026-04-29T06:55:20.903381+00:00\",\n    \"transport\": {\n      \"hint\": \"tmobile-tsatellite\",\n      \"low_bandwidth\": true,\n      \"mode\": \"carrier-auto\"\n    }\n  },\n  \"satcount\": {\n    \"error\": \"timeout: qsn-satcount --json-only --scan-dir /data/data/com.termux/files/home/SteelOx --scan-dir /data/data/com.termux/files/home/QuomoSatNet --fresh-seconds 900\",\n    \"ok\": false\n  },\n  \"spool\": {\n    \"failed\": 1462,\n    \"queued\": 5,\n    \"sent\": 1\n  },\n  \"stamp_utc\": \"2026-04-29T06:55:16.242168+00:00\",\n  \"type\": \"steelox_proxy_cloudswarm_once\"\n}"
+      }
+    ]
+  },
+  "sha256_digest": "ea46925da76702d4a846ca21784b48535e686659da6373f4c95695c0a7ac0264",
+  "stamp_utc": "2026-04-29T06:55:22.048435+00:00",
+  "version": "3.0.0"
+}

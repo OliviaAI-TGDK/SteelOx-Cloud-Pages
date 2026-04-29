@@ -1,18 +1,31 @@
 # SteelOx Cloud Pages
 
-Public static mirror for SteelOx TGDK CloudSwarm.
+Canonical public route:
 
-Generated: 2026-04-29T03:37:09Z
+```
+https://tgdk.io/SteelOx/
+```
 
-## Routes
+This repository publishes the SteelOx static web packet for TGDK.io.
 
-- /
-- /openapi.json
-- /api/routes.json
-- /status/pages_manifest.json
-- /bfe/bfe_manifest.json
-- /bfe/BFE_SEAL_CERTIFICATE.txt
-- /satcount/tgdk-satcount-summary.json
-- /cloudswarm/current.json
+## Active paths
 
-Live resolver routes remain local or authorized through TGDK-owned endpoints.
+```
+docs/SteelOx/
+SteelOx/
+.nojekyll
+```
+
+## Deploy
+
+```bash
+git add .nojekyll docs/SteelOx SteelOx README.md
+git commit -m "Publish SteelOx site"
+git push -u origin main
+```
+
+## Version
+
+```
+steelox-cloud-pages-conflict-fix-20260501-132838Z
+```

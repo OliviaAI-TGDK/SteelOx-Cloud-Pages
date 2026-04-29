@@ -1,0 +1,94 @@
+{
+  "analytics": {
+    "analytics": {
+      "known_satellite_count": 0,
+      "resolver_health_pct": 0.0,
+      "rolling_avg_connected": 0,
+      "rolling_delta_sum": 0,
+      "rolling_max_connected": 0,
+      "rolling_min_connected": 0,
+      "rolling_volatility": 0.0,
+      "unstable_satellites": [],
+      "window_samples": 24
+    },
+    "analytics_digest": "13416a992c2daf4fe202bb92f7f178e1c7f2a9208d500e227f49eda3d5f96ebf",
+    "analytics_qquap_hmac_sha256": "3cad8937fdf05e48b5484e843234974899b0de47eac471e1fc3e46d85bf9de17",
+    "analytics_uplink": {
+      "enabled": true,
+      "ok": true,
+      "response": "{\n  \"accepted_by\": \"TGDK local bridge\",\n  \"authority\": \"OliviaAI\",\n  \"body_digest\": \"d03f2f9882227881c405faf939d4eb25a89ff32a0687b1ea1209fe8af6746c85\",\n  \"body_qquap_hmac_sha256\": \"3cdf18e83f941dda0608ed7c1c06cdadea1a8811f930d1b7352e6ed99716026b\",\n  \"forward_target\": \"https://api.tgdk.io/api/v1/control/quomosat/analytics\",\n  \"note\": \"local accept; configure cloud forwarder if remote relay is required\",\n  \"ok\": true,\n  \"path\": \"/quomosat/analytics\",\n  \"session_device_id\": \"android-termux\",\n  \"session_sub\": \"steelox-user\",\n  \"stamp_utc\": \"2026-04-28T23:40:31.387636+00:00\",\n  \"transport\": \"tmobile-tsatellite\"\n}",
+      "status_code": 200
+    },
+    "connected_count": 0,
+    "connected_satellites": [],
+    "delta_connected": 0,
+    "digest": null,
+    "disconnected_or_unknown_satellites": [],
+    "endpoint_error_count": 0,
+    "endpoint_success_count": 0,
+    "error": "Resolver timeout after 20.0s",
+    "gained_satellites": [],
+    "lost_satellites": [],
+    "ok": false,
+    "raw_count": 0,
+    "seal_mode": null,
+    "stale_count": 0,
+    "stamp_utc": "2026-04-28T23:40:31.363470+00:00",
+    "unique_count": 0
+  },
+  "digest": "99c236fbdb7699c1f48419a48cc2fd48487e915c67d7212744e3c24b68092bc4",
+  "ok": true,
+  "qquap_hmac_sha256": "1cc30589d4a93c0789c58cf81a75e2065c4ab99f3a8ced0b876f27e42a0be5f2",
+  "resolver": {
+    "digest": "00c7f23b2cf3cbf0ff25b25131cf7a95eb4add330a8ded6599fbc58ab98ea162",
+    "method": "POST",
+    "nodes": [
+      {
+        "digest": "1015958c960bc61a4756d81899d226f4ddea873be9ac787b18920674e94aa829",
+        "error": "",
+        "failures": 0,
+        "last_checked": 1777443538.6981747,
+        "last_ok": 1777443538.6981747,
+        "latency_ms": 36.886,
+        "node": "http://127.0.0.1:8787",
+        "ok": true,
+        "score": 158.3114,
+        "successes": 1
+      },
+      {
+        "digest": "",
+        "error": "TimeoutError: The read operation timed out",
+        "failures": 1,
+        "last_checked": 1777443543.264124,
+        "last_ok": 0.0,
+        "latency_ms": 4601.656,
+        "node": "https://api.tgdk.io",
+        "ok": false,
+        "score": -184.0,
+        "successes": 0
+      }
+    ],
+    "ok": true,
+    "qquap_hmac_sha256": "13f1ef95a8c668ec9c43b623f29c96fd3639116bbed872f377f38cccff987a89",
+    "selected_node": "http://127.0.0.1:8787",
+    "selected_url": "http://127.0.0.1:8787/proxy/uplink",
+    "service": "steelox.proxy.uplink",
+    "stamp_utc": "2026-04-29T06:19:03.264731+00:00",
+    "transport": {
+      "hint": "tmobile-tsatellite",
+      "low_bandwidth": true,
+      "mode": "carrier-auto"
+    }
+  },
+  "satcount": {
+    "error": "timeout: qsn-satcount --json-only --scan-dir /data/data/com.termux/files/home/SteelOx --scan-dir /data/data/com.termux/files/home/QuomoSatNet --fresh-seconds 900",
+    "ok": false
+  },
+  "spool": {
+    "failed": 632,
+    "queued": 5,
+    "sent": 1
+  },
+  "stamp_utc": "2026-04-29T06:18:58.660589+00:00",
+  "type": "steelox_proxy_cloudswarm_once"
+}

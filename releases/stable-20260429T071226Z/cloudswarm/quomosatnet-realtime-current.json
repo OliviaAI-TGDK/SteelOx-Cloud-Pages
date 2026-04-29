@@ -1,0 +1,37 @@
+{
+  "analytics": {
+    "known_satellite_count": 0,
+    "resolver_health_pct": 0.0,
+    "rolling_avg_connected": 0,
+    "rolling_delta_sum": 0,
+    "rolling_max_connected": 0,
+    "rolling_min_connected": 0,
+    "rolling_volatility": 0.0,
+    "unstable_satellites": [],
+    "window_samples": 24
+  },
+  "analytics_digest": "13416a992c2daf4fe202bb92f7f178e1c7f2a9208d500e227f49eda3d5f96ebf",
+  "analytics_qquap_hmac_sha256": "3cad8937fdf05e48b5484e843234974899b0de47eac471e1fc3e46d85bf9de17",
+  "analytics_uplink": {
+    "enabled": true,
+    "ok": true,
+    "response": "{\n  \"accepted_by\": \"TGDK local bridge\",\n  \"authority\": \"OliviaAI\",\n  \"body_digest\": \"d03f2f9882227881c405faf939d4eb25a89ff32a0687b1ea1209fe8af6746c85\",\n  \"body_qquap_hmac_sha256\": \"3cdf18e83f941dda0608ed7c1c06cdadea1a8811f930d1b7352e6ed99716026b\",\n  \"forward_target\": \"https://api.tgdk.io/api/v1/control/quomosat/analytics\",\n  \"note\": \"local accept; configure cloud forwarder if remote relay is required\",\n  \"ok\": true,\n  \"path\": \"/quomosat/analytics\",\n  \"session_device_id\": \"android-termux\",\n  \"session_sub\": \"steelox-user\",\n  \"stamp_utc\": \"2026-04-28T23:40:31.387636+00:00\",\n  \"transport\": \"tmobile-tsatellite\"\n}",
+    "status_code": 200
+  },
+  "connected_count": 0,
+  "connected_satellites": [],
+  "delta_connected": 0,
+  "digest": null,
+  "disconnected_or_unknown_satellites": [],
+  "endpoint_error_count": 0,
+  "endpoint_success_count": 0,
+  "error": "Resolver timeout after 20.0s",
+  "gained_satellites": [],
+  "lost_satellites": [],
+  "ok": false,
+  "raw_count": 0,
+  "seal_mode": null,
+  "stale_count": 0,
+  "stamp_utc": "2026-04-28T23:40:31.363470+00:00",
+  "unique_count": 0
+}

@@ -1,0 +1,132 @@
+{
+  "engine": "SteelOx.Cloud.Phase4.ReleaseIndex",
+  "latest_release_id": "stable-20260429T080935Z",
+  "latest_release_manifest": "releases/stable-20260429T080935Z/release_manifest.json",
+  "pages_url": "https://oliviaai-tgdk.github.io/SteelOx-Cloud-Pages/",
+  "qquap_hmac_sha256": "b5928f00cfb3c3175870e96a1cf34c3d915cb5d43d51426becea26b5a86add5f",
+  "releases": [
+    {
+      "channel": "stable",
+      "manifest": "releases/stable-20260429T080935Z/release_manifest.json",
+      "note": "assembly automatic release",
+      "path": "releases/stable-20260429T080935Z/",
+      "release_id": "stable-20260429T080935Z",
+      "release_qquap_hmac_sha256": "98534072cf3d9a43695f1262f53f8ea5fef314a9bde308d35e55a49bf7d206ab",
+      "release_sha256": "6328c2e0338fe4a24ca8c2fd3054e8b3f68eddef55d777cc19eb27572c640233",
+      "stamp_utc": "2026-04-29T08:09:35.959633+00:00"
+    },
+    {
+      "channel": "stable",
+      "manifest": "releases/stable-20260429T075150Z/release_manifest.json",
+      "note": "assembly automatic release",
+      "path": "releases/stable-20260429T075150Z/",
+      "release_id": "stable-20260429T075150Z",
+      "release_qquap_hmac_sha256": "cd4cacf81944363734decd2b2b20311758bff57ea17ef85994b65a1c10b75382",
+      "release_sha256": "271eca2c6c9f656f3a171058c6d66d187f770802fc63583e05f2f1233e24370b",
+      "stamp_utc": "2026-04-29T07:51:50.454701+00:00"
+    },
+    {
+      "channel": "stable",
+      "manifest": "releases/stable-20260429T073234Z/release_manifest.json",
+      "note": "assembly automatic release",
+      "path": "releases/stable-20260429T073234Z/",
+      "release_id": "stable-20260429T073234Z",
+      "release_qquap_hmac_sha256": "29436acf3e3fbfbf8ff90001088cfbb5c3b22df0583b48b667c6524e6db1abe1",
+      "release_sha256": "40698ba0748df8249408d91f33ddb7b702d848f277bdfda50bd4dfcc80307c5a",
+      "stamp_utc": "2026-04-29T07:32:34.711041+00:00"
+    },
+    {
+      "channel": "stable",
+      "manifest": "releases/stable-20260429T071226Z/release_manifest.json",
+      "note": "assembly automatic release",
+      "path": "releases/stable-20260429T071226Z/",
+      "release_id": "stable-20260429T071226Z",
+      "release_qquap_hmac_sha256": "cb34ace2bbcf50860cb34a859c1f670e3cafc7831e3be6fa7e96273c097c8d5d",
+      "release_sha256": "632e73cc0e98ad352c0ee26a17a3b8fab7d4b4b1cf94aa57af08dfa4bea21920",
+      "stamp_utc": "2026-04-29T07:12:26.334640+00:00"
+    },
+    {
+      "channel": "stable",
+      "manifest": "releases/stable-20260429T065523Z/release_manifest.json",
+      "note": "assembly automatic release",
+      "path": "releases/stable-20260429T065523Z/",
+      "release_id": "stable-20260429T065523Z",
+      "release_qquap_hmac_sha256": "b65116ba2d3512d4be66632aca6858ecb752f794804c5d1385f6b79c060a02b0",
+      "release_sha256": "86e7a2f51f178ef90d1695728f0e461a3d657ad65098430367203725191a70fb",
+      "stamp_utc": "2026-04-29T06:55:23.152677+00:00"
+    },
+    {
+      "channel": "stable",
+      "manifest": "releases/stable-20260429T063639Z/release_manifest.json",
+      "note": "assembly automatic release",
+      "path": "releases/stable-20260429T063639Z/",
+      "release_id": "stable-20260429T063639Z",
+      "release_qquap_hmac_sha256": "99338cd07786c16a49641377effc57aa46cba54f4a38f65663a76064c50dc8de",
+      "release_sha256": "d9b62e8d076f9900570b770460243d54639b1cb55c6a07fc4739cbcdbf570369",
+      "stamp_utc": "2026-04-29T06:36:39.442304+00:00"
+    },
+    {
+      "channel": "stable",
+      "manifest": "releases/stable-20260429T061905Z/release_manifest.json",
+      "note": "assembly automatic release",
+      "path": "releases/stable-20260429T061905Z/",
+      "release_id": "stable-20260429T061905Z",
+      "release_qquap_hmac_sha256": "3a8d6e38a54289db0b1c824a37f02c20c58caab73cb94c80ad595203c118782b",
+      "release_sha256": "6329a92a8bef24a3e186124052e3d851385d63554b9161d712865524ad90e3a3",
+      "stamp_utc": "2026-04-29T06:19:05.480423+00:00"
+    },
+    {
+      "channel": "stable",
+      "manifest": "releases/stable-20260429T060025Z/release_manifest.json",
+      "note": "assembly automatic release",
+      "path": "releases/stable-20260429T060025Z/",
+      "release_id": "stable-20260429T060025Z",
+      "release_qquap_hmac_sha256": "951a06aabae2bf66ffb3de912b7744b2b13eb693bf55ee8a019e0a0fb34e6a6d",
+      "release_sha256": "10c5ae8bf5ee8a23e603e29cf148c243bf388549676eebff33f05d50ed9e5fa0",
+      "stamp_utc": "2026-04-29T06:00:25.993435+00:00"
+    },
+    {
+      "channel": "stable",
+      "manifest": "releases/stable-20260429T054127Z/release_manifest.json",
+      "note": "assembly automatic release",
+      "path": "releases/stable-20260429T054127Z/",
+      "release_id": "stable-20260429T054127Z",
+      "release_qquap_hmac_sha256": "1b1fb9e780998b7499155e7b12a328c9e84cff9cbe4be345a32e51a90fc9e2d9",
+      "release_sha256": "7aca5598df2a3ef09b37cdc7e55b6e3cc3d29f541dcbb99790c82678a5fcc786",
+      "stamp_utc": "2026-04-29T05:41:27.213925+00:00"
+    },
+    {
+      "channel": "stable",
+      "manifest": "releases/stable-20260429T053518Z/release_manifest.json",
+      "note": "assembly automatic release",
+      "path": "releases/stable-20260429T053518Z/",
+      "release_id": "stable-20260429T053518Z",
+      "release_qquap_hmac_sha256": null,
+      "release_sha256": "5a50ac31afbf847cdb2ce0fe2426aef0dfe547ad2015e6be0ff11dcec28e1bf4",
+      "stamp_utc": "2026-04-29T05:35:18.713956+00:00"
+    },
+    {
+      "channel": "stable",
+      "manifest": "releases/stable-20260429T040520Z/release_manifest.json",
+      "note": "SteelOx Cloud Phase 4 published release",
+      "path": "releases/stable-20260429T040520Z/",
+      "release_id": "stable-20260429T040520Z",
+      "release_qquap_hmac_sha256": null,
+      "release_sha256": "2b652f4b02180f5362894c6518292e51321e52fda41e194e6f7fbaf784ad356b",
+      "stamp_utc": "2026-04-29T04:05:20.461054+00:00"
+    },
+    {
+      "channel": "stable",
+      "manifest": "releases/stable-20260429T040501Z/release_manifest.json",
+      "note": "SteelOx Cloud Phase 4 immutable release",
+      "path": "releases/stable-20260429T040501Z/",
+      "release_id": "stable-20260429T040501Z",
+      "release_qquap_hmac_sha256": null,
+      "release_sha256": "f8bab1b6531e78d45cd46b5ff77f0a1c446535bec5f7e3181e8eebf74423b629",
+      "stamp_utc": "2026-04-29T04:05:01.876281+00:00"
+    }
+  ],
+  "sha256_digest": "f649fe69ddc59464b2aed4ac332d22ee6867f773b0c8638801bf53be1dc68da8",
+  "stamp_utc": "2026-04-29T08:09:35.960249+00:00",
+  "version": "4.0.0"
+}
