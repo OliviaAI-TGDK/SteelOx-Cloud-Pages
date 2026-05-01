@@ -1,25 +1,23 @@
 # SteelOx Cloud Pages
 
-SteelOx GitHub Pages origin:
-
-```
-https://oliviaai-tgdk.github.io/SteelOx-Cloud-Pages/steelox/
-https://oliviaai-tgdk.github.io/SteelOx-Cloud-Pages/SteelOx/
-```
-
-Cloudflare public routes:
+Cloudflare public route:
 
 ```
 https://tgdk.io/steelox/
 https://tgdk.io/SteelOx/
 ```
 
-Important:
+GitHub Pages origin:
 
-This repo does not claim `tgdk.io` with a GitHub Pages CNAME. Cloudflare owns the host-level routing and sends only the SteelOx path to this GitHub Pages origin.
+```
+https://oliviaai-tgdk.github.io/SteelOx-Cloud-Pages/steelox/
+https://oliviaai-tgdk.github.io/SteelOx-Cloud-Pages/SteelOx/
+```
+
+This repo does not claim the apex custom domain with a GitHub Pages CNAME. Cloudflare owns host routing.
 
 Generated:
 
 ```
-steelox-cloudflare-host-resolve-20260501-133936Z
+steelox-cloudflare-live-rescue-20260501-134510Z
 ```
