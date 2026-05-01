@@ -1,0 +1,8 @@
+name = "steelox-route-resolver"
+main = "worker.js"
+compatibility_date = "2026-05-01"
+
+routes = [
+  { pattern = "tgdk.io/steelox*", zone_name = "tgdk.io" },
+  { pattern = "tgdk.io/SteelOx*", zone_name = "tgdk.io" }
+]
