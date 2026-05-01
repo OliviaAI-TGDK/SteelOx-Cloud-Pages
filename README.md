@@ -1,31 +1,21 @@
 # SteelOx Cloud Pages
 
-Canonical public route:
+Canonical SteelOx routes:
 
 ```
+https://tgdk.io/steelox/
 https://tgdk.io/SteelOx/
 ```
 
-This repository publishes the SteelOx static web packet for TGDK.io.
-
-## Active paths
+GitHub Pages source:
 
 ```
-docs/SteelOx/
-SteelOx/
-.nojekyll
+Branch: main
+Folder: /docs
 ```
 
-## Deploy
-
-```bash
-git add .nojekyll docs/SteelOx SteelOx README.md
-git commit -m "Publish SteelOx site"
-git push -u origin main
-```
-
-## Version
+Generated:
 
 ```
-steelox-cloud-pages-conflict-fix-20260501-132838Z
+steelox-route-case-safe-20260501-133352Z
 ```

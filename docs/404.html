@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SteelOx Redirect</title>
+<script>
+(function () {
+  var p = window.location.pathname || "";
+  var lower = p.toLowerCase();
+
+  if (lower === "/steelox" || lower.indexOf("/steelox/") === 0) {
+    window.location.replace("/steelox/");
+    return;
+  }
+
+  document.addEventListener("DOMContentLoaded", function () {
+    document.body.innerHTML =
+      '<main style="font-family:system-ui;padding:32px;max-width:720px;margin:auto">' +
+      '<h1>Page not found</h1>' +
+      '<p>SteelOx is available here:</p>' +
+      '<p><a href="/steelox/">https://tgdk.io/steelox/</a></p>' +
+      '</main>';
+  });
+})();
+</script>
+</head>
+<body>
+<noscript>
+<main style="font-family:system-ui;padding:32px;max-width:720px;margin:auto">
+<h1>Page not found</h1>
+<p>SteelOx is available here:</p>
+<p><a href="/steelox/">https://tgdk.io/steelox/</a></p>
+</main>
+</noscript>
+</body>
+</html>
